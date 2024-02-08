@@ -32,6 +32,7 @@
         "@gooddata/sdk-ui-filters": "9.6.0",
         "@gooddata/sdk-ui-geo": "9.6.0",
         "@gooddata/sdk-ui-pivot": "9.6.0",
+        "mapbox-gl": "^3.1.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },

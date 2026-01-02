@@ -1,5 +1,5 @@
 /* eslint-disable */
-/* THIS FILE WAS AUTO-GENERATED USING CATALOG EXPORTER; YOU SHOULD NOT EDIT THIS FILE; GENERATE TIME: 2024-12-12T15:54:41.628Z; */
+/* THIS FILE WAS AUTO-GENERATED USING CATALOG EXPORTER; YOU SHOULD NOT EDIT THIS FILE; GENERATE TIME: 2026-01-02T16:13:42.589Z; */
 // @ts-ignore ignore unused imports here if they happen (e.g. when there is no measure in the workspace)
 import {
   newAttribute,
@@ -12,197 +12,144 @@ import {
 
 /**
  * Attribute Title: Customer age
- * Attribute ID: CUSTOMER_AGE
+ * Attribute ID: customer_age
  */
-export const CustomerAge: IAttribute = newAttribute("CUSTOMER_AGE");
+export const CustomerAge: IAttribute = newAttribute("customer_age");
 /**
  * Attribute Title: Customer city
- * Attribute ID: CUSTOMER_CITY
+ * Attribute ID: customer_city
  */
 export const CustomerCity = {
   /**
    * Display Form Title: Customer city
-   * Display Form ID: CUSTOMER_CITY
+   * Display Form ID: customer_city
    */
-  Default: newAttribute("CUSTOMER_CITY"),
+  Default: newAttribute("customer_city")
   /**
-   * Display Form Title: City pushpin
-   * Display Form ID: CITY_PUSHPIN
-   */ CityPushpin: newAttribute("CITY_PUSHPIN"),
+   * Display Form Title: City pushpin longitude
+   * Display Form ID: geo__customer_city__city_pushpin_longitude
+   */,
+  CityPushpinLongitude: newAttribute(
+    "geo__customer_city__city_pushpin_longitude"
+  )
+  /**
+   * Display Form Title: City pushpin latitude
+   * Display Form ID: geo__customer_city__city_pushpin_latitude
+   */,
+  CityPushpinLatitude: newAttribute(
+    "geo__customer_city__city_pushpin_latitude"
+  ),
 };
 /**
  * Attribute Title: Customer country
- * Attribute ID: CUSTOMER_COUNTRY
+ * Attribute ID: customer_country
  */
-export const CustomerCountry: IAttribute = newAttribute("CUSTOMER_COUNTRY");
+export const CustomerCountry: IAttribute = newAttribute("customer_country");
 /**
  * Attribute Title: Customer email
- * Attribute ID: CUSTOMER_EMAIL
+ * Attribute ID: customer_email
  */
-export const CustomerEmail: IAttribute = newAttribute("CUSTOMER_EMAIL");
+export const CustomerEmail: IAttribute = newAttribute("customer_email");
 /**
  * Attribute Title: Customer id
- * Attribute ID: CUSTOMER_ID
+ * Attribute ID: customer_id
  */
 export const CustomerId = {
   /**
-   * Display Form Title: Customer id
-   * Display Form ID: CUSTOMER_ID
-   */
-  Default: newAttribute("CUSTOMER_ID"),
-  /**
    * Display Form Title: Customer name
-   * Display Form ID: CUSTOMER_NAME
-   */ CustomerName: newAttribute("CUSTOMER_NAME"),
+   * Display Form ID: customer_name
+   */
+  CustomerName: newAttribute("customer_name")
+  /**
+   * Display Form Title: Customer id
+   * Display Form ID: customer_id
+   */,
+  Default: newAttribute("customer_id"),
 };
 /**
  * Attribute Title: Customer state
- * Attribute ID: CUSTOMER_STATE
+ * Attribute ID: customer_state
  */
-export const CustomerState: IAttribute = newAttribute("CUSTOMER_STATE");
-/**
- * Attribute Title: Email
- * Attribute ID: EMAIL
- */
-export const Email: IAttribute = newAttribute("EMAIL");
-/**
- * Attribute Title: FIRST NAME
- * Attribute ID: FIRST_NAME
- */
-export const FIRSTNAME: IAttribute = newAttribute("FIRST_NAME");
-/**
- * Attribute Title: GROUP ID
- * Attribute ID: GROUP_ID
- */
-export const GROUPID: IAttribute = newAttribute("GROUP_ID");
-/**
- * Attribute Title: LAST NAME
- * Attribute ID: LAST_NAME
- */
-export const LASTNAME: IAttribute = newAttribute("LAST_NAME");
-/**
- * Attribute Title: Location
- * Attribute ID: LOCATION
- */
-export const Location = {
-  /**
-   * Display Form Title: Lon
-   * Display Form ID: LOCATION.lon
-   */
-  Lon: newAttribute("LOCATION.lon"),
-  /**
-   * Display Form Title: Location
-   * Display Form ID: LOCATION
-   */ Default: newAttribute("LOCATION"),
-  /**
-   * Display Form Title: Lat
-   * Display Form ID: LOCATION.lat
-   */ Lat: newAttribute("LOCATION.lat"),
-};
+export const CustomerState: IAttribute = newAttribute("customer_state");
 /**
  * Attribute Title: Monthly inventory id
- * Attribute ID: MONTHLY_INVENTORY_ID
+ * Attribute ID: monthly_inventory_id
  */
 export const MonthlyInventoryId: IAttribute = newAttribute(
-  "MONTHLY_INVENTORY_ID"
+  "monthly_inventory_id"
 );
 /**
  * Attribute Title: Order id
- * Attribute ID: ORDER_ID
+ * Attribute ID: order_id
  */
-export const OrderId: IAttribute = newAttribute("ORDER_ID");
+export const OrderId: IAttribute = newAttribute("order_id");
 /**
  * Attribute Title: Order line id
- * Attribute ID: ORDER_LINE_ID
+ * Attribute ID: order_line_id
  */
-export const OrderLineId: IAttribute = newAttribute("ORDER_LINE_ID");
+export const OrderLineId: IAttribute = newAttribute("order_line_id");
 /**
  * Attribute Title: Order status
- * Attribute ID: ORDER_STATUS
+ * Attribute ID: order_status
  */
-export const OrderStatus: IAttribute = newAttribute("ORDER_STATUS");
+export const OrderStatus: IAttribute = newAttribute("order_status");
 /**
  * Attribute Title: Product brand
- * Attribute ID: PRODUCT_BRAND
+ * Attribute ID: product_brand
  */
-export const ProductBrand: IAttribute = newAttribute("PRODUCT_BRAND");
+export const ProductBrand: IAttribute = newAttribute("product_brand");
 /**
  * Attribute Title: Product category
- * Attribute ID: PRODUCT_CATEGORY
+ * Attribute ID: product_category
  */
-export const ProductCategory: IAttribute = newAttribute("PRODUCT_CATEGORY");
+export const ProductCategory: IAttribute = newAttribute("product_category");
 /**
  * Attribute Title: Product id
- * Attribute ID: PRODUCT_ID
+ * Attribute ID: product_id
  */
 export const ProductId = {
   /**
-   * Display Form Title: Product id
-   * Display Form ID: PRODUCT_ID
+   * Display Form Title: Product id image web
+   * Display Form ID: product_id_image_web
    */
-  Default: newAttribute("PRODUCT_ID"),
+  ImageWeb: newAttribute("product_id_image_web")
+  /**
+   * Display Form Title: Product id
+   * Display Form ID: product_id
+   */,
+  Default: newAttribute("product_id")
   /**
    * Display Form Title: Product name
-   * Display Form ID: PRODUCT_NAME
-   */ ProductName: newAttribute("PRODUCT_NAME"),
-  /**
-   * Display Form Title: Product id image web
-   * Display Form ID: PRODUCT_ID_IMAGE_WEB
-   */ ImageWeb: newAttribute("PRODUCT_ID_IMAGE_WEB"),
+   * Display Form ID: product_name
+   */,
+  ProductName: newAttribute("product_name"),
 };
 /**
  * Attribute Title: Product image
- * Attribute ID: PRODUCT_IMAGE
+ * Attribute ID: product_image
  */
 export const ProductImage = {
   /**
-   * Display Form Title: Product image
-   * Display Form ID: PRODUCT_IMAGE
-   */
-  Default: newAttribute("PRODUCT_IMAGE"),
-  /**
    * Display Form Title: Product image web
-   * Display Form ID: PRODUCT_IMAGE_WEB
-   */ Web: newAttribute("PRODUCT_IMAGE_WEB"),
+   * Display Form ID: product_image_web
+   */
+  Web: newAttribute("product_image_web")
+  /**
+   * Display Form Title: Product image
+   * Display Form ID: product_image
+   */,
+  Default: newAttribute("product_image"),
 };
 /**
  * Attribute Title: Product rating
- * Attribute ID: PRODUCT_RATING
+ * Attribute ID: product_rating
  */
-export const ProductRating: IAttribute = newAttribute("PRODUCT_RATING");
+export const ProductRating: IAttribute = newAttribute("product_rating");
 /**
- * Attribute Title: Returns id
- * Attribute ID: RETURNS_ID
+ * Attribute Title: Return id
+ * Attribute ID: return_id
  */
-export const ReturnsId: IAttribute = newAttribute("RETURNS_ID");
-/**
- * Attribute Title: Right
- * Attribute ID: RIGHT
- */
-export const Right: IAttribute = newAttribute("RIGHT");
-/**
- * Attribute Title: USER AUTH
- * Attribute ID: USER_AUTH
- */
-export const USERAUTH: IAttribute = newAttribute("USER_AUTH");
-/**
- * Attribute Title: USER ID
- * Attribute ID: USER_ID
- */
-export const USERID: IAttribute = newAttribute("USER_ID");
-/**
- * Attribute Title: WORKSPACE ID
- * Attribute ID: WORKSPACE_ID
- */
-export const WORKSPACEID: IAttribute = newAttribute("WORKSPACE_ID");
-/**
- * Metric Title: A
- * Metric ID: a
- * Metric Type: MAQL Metric
- */
-export const A: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("a", "measure")
-);
+export const ReturnId: IAttribute = newAttribute("return_id");
 /**
  * Metric Title: Active Customers
  * Metric ID: active_customers
@@ -212,20 +159,33 @@ export const ActiveCustomers: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("active_customers", "measure")
 );
 /**
- * Metric Title: ARPU
+ * Metric Title: All Time Average Order Volume
+ * Metric ID: all_time_average_order_volume
+ * Metric Type: MAQL Metric
+ */
+export const AllTimeAverageOrderVolume: IMeasure<IMeasureDefinition> =
+  newMeasure(idRef("all_time_average_order_volume", "measure"));
+/**
+ * Metric Title: Average Revenue per User (ARPU)
  * Metric ID: arpu
  * Metric Type: MAQL Metric
  */
-export const ARPU: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("arpu", "measure")
-);
+export const AverageRevenuePerUserARPU: IMeasure<IMeasureDefinition> =
+  newMeasure(idRef("arpu", "measure"));
 /**
- * Metric Title: Average Price of Products
- * Metric ID: average_price_of_products
+ * Metric Title: Average Orders by Customers
+ * Metric ID: average_orders_by_customers
  * Metric Type: MAQL Metric
  */
-export const AveragePriceOfProducts: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("average_price_of_products", "measure")
+export const AverageOrdersByCustomers: IMeasure<IMeasureDefinition> =
+  newMeasure(idRef("average_orders_by_customers", "measure"));
+/**
+ * Metric Title: Average Order Volume
+ * Metric ID: average_order_volume
+ * Metric Type: MAQL Metric
+ */
+export const AverageOrderVolume: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("average_order_volume", "measure")
 );
 /**
  * Metric Title: Average Product Cost
@@ -236,12 +196,20 @@ export const AverageProductCost: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("average_product_cost", "measure")
 );
 /**
- * Metric Title: Average Product List Price
- * Metric ID: average_product_list_price
+ * Metric Title: Average Product Price
+ * Metric ID: average_product_price
  * Metric Type: MAQL Metric
  */
-export const AverageProductListPrice: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("average_product_list_price", "measure")
+export const AverageProductPrice: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("average_product_price", "measure")
+);
+/**
+ * Metric Title: Canceled Orders
+ * Metric ID: canceled_orders
+ * Metric Type: MAQL Metric
+ */
+export const CanceledOrders: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("canceled_orders", "measure")
 );
 /**
  * Metric Title: COGS
@@ -252,35 +220,98 @@ export const COGS: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("cogs", "measure")
 );
 /**
- * Metric Title: COGS [Orders]
+ * Metric Title: COGS (negative)
+ * Metric ID: cogs_n
+ * Metric Type: MAQL Metric
+ */
+export const COGSNegative: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("cogs_n", "measure")
+);
+/**
+ * Metric Title: COGS for Processed Orders
  * Metric ID: cogs_orders
  * Metric Type: MAQL Metric
  */
-export const COGSOrders: IMeasure<IMeasureDefinition> = newMeasure(
+export const COGSForProcessedOrders: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("cogs_orders", "measure")
 );
 /**
- * Metric Title: COGS [Returns]
+ * Metric Title: COGS for Returns
  * Metric ID: cogs_returns
  * Metric Type: MAQL Metric
  */
-export const COGSReturns: IMeasure<IMeasureDefinition> = newMeasure(
+export const COGSForReturns: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("cogs_returns", "measure")
 );
 /**
- * Metric Title: Customers w/ Processed Orders
+ * Metric Title: Cost-to-Revenue Ratio
+ * Metric ID: cost-to-revenue_ratio
+ * Metric Type: MAQL Metric
+ */
+export const CostToRevenueRatio: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("cost-to-revenue_ratio", "measure")
+);
+/**
+ * Metric Title: Cost vs Selling Price
+ * Metric ID: cost_vs_selling_price
+ * Metric Type: MAQL Metric
+ */
+export const CostVsSellingPrice: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("cost_vs_selling_price", "measure")
+);
+/**
+ * Metric Title: Customer Lifetime Value (CLV)
+ * Metric ID: customer_lifetime_value_clv
+ * Metric Type: MAQL Metric
+ */
+export const CustomerLifetimeValueCLV: IMeasure<IMeasureDefinition> =
+  newMeasure(idRef("customer_lifetime_value_clv", "measure"));
+/**
+ * Metric Title: Customer Retention Rate
+ * Metric ID: customer_retention_rate
+ * Metric Type: MAQL Metric
+ */
+export const CustomerRetentionRate: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("customer_retention_rate", "measure")
+);
+/**
+ * Metric Title: Customers with Processed Orders
  * Metric ID: customers_w_processed_orders
  * Metric Type: MAQL Metric
  */
-export const CustomersWProcessedOrders: IMeasure<IMeasureDefinition> =
+export const CustomersWithProcessedOrders: IMeasure<IMeasureDefinition> =
   newMeasure(idRef("customers_w_processed_orders", "measure"));
 /**
- * Metric Title: Error rate
- * Metric ID: error_rate
+ * Metric Title: Desired Product Rating
+ * Metric ID: desired_product_rating
  * Metric Type: MAQL Metric
  */
-export const ErrorRate: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("error_rate", "measure")
+export const DesiredProductRating: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("desired_product_rating", "measure")
+);
+/**
+ * Metric Title: Discount Rate
+ * Metric ID: discount_rate
+ * Metric Type: MAQL Metric
+ */
+export const DiscountRate: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("discount_rate", "measure")
+);
+/**
+ * Metric Title: Discount Utilization Rate
+ * Metric ID: discount_utilization_rate
+ * Metric Type: MAQL Metric
+ */
+export const DiscountUtilizationRate: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("discount_utilization_rate", "measure")
+);
+/**
+ * Metric Title: Global BOM Inventory
+ * Metric ID: global_bom_inventory
+ * Metric Type: MAQL Metric
+ */
+export const GlobalBOMInventory: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("global_bom_inventory", "measure")
 );
 /**
  * Metric Title: Gross Profit
@@ -299,6 +330,38 @@ export const GrossProfitMargin: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("gross_profit_margin", "measure")
 );
 /**
+ * Metric Title: Inventory Turnover Rate
+ * Metric ID: inventory_turnover_rate
+ * Metric Type: MAQL Metric
+ */
+export const InventoryTurnoverRate: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("inventory_turnover_rate", "measure")
+);
+/**
+ * Metric Title: Markup Percentage
+ * Metric ID: markup_percentage
+ * Metric Type: MAQL Metric
+ */
+export const MarkupPercentage: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("markup_percentage", "measure")
+);
+/**
+ * Metric Title: Monthly Total Sales
+ * Metric ID: monthly_total_sales
+ * Metric Type: MAQL Metric
+ */
+export const MonthlyTotalSales: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("monthly_total_sales", "measure")
+);
+/**
+ * Metric Title: Net Delivered Orders
+ * Metric ID: net_delivered_orders
+ * Metric Type: MAQL Metric
+ */
+export const NetDeliveredOrders: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("net_delivered_orders", "measure")
+);
+/**
  * Metric Title: Net Orders
  * Metric ID: net_orders
  * Metric Type: MAQL Metric
@@ -307,11 +370,11 @@ export const NetOrders: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("net_orders", "measure")
 );
 /**
- * Metric Title: Net Sales
+ * Metric Title: Total Net Sales
  * Metric ID: net_sales
  * Metric Type: MAQL Metric
  */
-export const NetSales: IMeasure<IMeasureDefinition> = newMeasure(
+export const TotalNetSales: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("net_sales", "measure")
 );
 /**
@@ -331,44 +394,59 @@ export const NewCustomers: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("new_customers", "measure")
 );
 /**
- * Metric Title: New Customers Monthly
- * Metric ID: new_customers_monthly
- * Metric Type: MAQL Metric
- */
-export const NewCustomersMonthly: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("new_customers_monthly", "measure")
-);
-/**
- * Metric Title: % of Net Sales
- * Metric ID: of_net_sales
- * Metric Type: MAQL Metric
- */
-export const PercentOfNetSales: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("of_net_sales", "measure")
-);
-/**
  * Metric Title: # of Orders
- * Metric ID: of_orders
+ * Metric ID: number_of_orders
  * Metric Type: MAQL Metric
  */
 export const NrOfOrders: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("of_orders", "measure")
+  idRef("number_of_orders", "measure")
 );
 /**
- * Metric Title: Order Amount
+ * Metric Title: # of Single Orders
+ * Metric ID: number_of_single_orders
+ * Metric Type: MAQL Metric
+ */
+export const NrOfSingleOrders: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("number_of_single_orders", "measure")
+);
+/**
+ * Metric Title: Total Order Amount
  * Metric ID: order_amount
  * Metric Type: MAQL Metric
  */
-export const OrderAmount: IMeasure<IMeasureDefinition> = newMeasure(
+export const TotalOrderAmount: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("order_amount", "measure")
 );
 /**
- * Metric Title: Orders all time
- * Metric ID: orders_all_time
+ * Metric Title: Order Volume vs Return Volume
+ * Metric ID: order_volume_vs_return_volume
  * Metric Type: MAQL Metric
  */
-export const OrdersAllTime: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("orders_all_time", "measure")
+export const OrderVolumeVsReturnVolume: IMeasure<IMeasureDefinition> =
+  newMeasure(idRef("order_volume_vs_return_volume", "measure"));
+/**
+ * Metric Title: % of Net Sales
+ * Metric ID: percentage_of_net_sales
+ * Metric Type: MAQL Metric
+ */
+export const PercentOfNetSales: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("percentage_of_net_sales", "measure")
+);
+/**
+ * Metric Title: Perfectly Inelastic
+ * Metric ID: perfectly_inelastic
+ * Metric Type: MAQL Metric
+ */
+export const PerfectlyInelastic: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("perfectly_inelastic", "measure")
+);
+/**
+ * Metric Title: Price Elasticity of Demand
+ * Metric ID: price_elasticity_of_demand
+ * Metric Type: MAQL Metric
+ */
+export const PriceElasticityOfDemand: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("price_elasticity_of_demand", "measure")
 );
 /**
  * Metric Title: Product Rating
@@ -379,45 +457,98 @@ export const ProductRating_1: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("product_rating", "measure")
 );
 /**
- * Metric Title: Return Customers
+ * Metric Title: Product Return Rate
+ * Metric ID: product_return_rate
+ * Metric Type: MAQL Metric
+ */
+export const ProductReturnRate: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("product_return_rate", "measure")
+);
+/**
+ * Metric Title: Profit per Order
+ * Metric ID: profit_per_order
+ * Metric Type: MAQL Metric
+ */
+export const ProfitPerOrder: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("profit_per_order", "measure")
+);
+/**
+ * Metric Title: Purchase Frequency per Customer
+ * Metric ID: purchase_frequency_per_customer
+ * Metric Type: MAQL Metric
+ */
+export const PurchaseFrequencyPerCustomer: IMeasure<IMeasureDefinition> =
+  newMeasure(idRef("purchase_frequency_per_customer", "measure"));
+/**
+ * Metric Title: BOM Quantity by Year
+ * Metric ID: quantity_bom_by_year
+ * Metric Type: MAQL Metric
+ */
+export const BOMQuantityByYear: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("quantity_bom_by_year", "measure")
+);
+/**
+ * Metric Title: Returning Customers
  * Metric ID: return_customers
  * Metric Type: MAQL Metric
  */
-export const ReturnCustomers: IMeasure<IMeasureDefinition> = newMeasure(
+export const ReturningCustomers: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("return_customers", "measure")
 );
 /**
- * Metric Title: Return Customers Monthly
- * Metric ID: return_customers_monthly
+ * Metric Title: Return Loss Impact
+ * Metric ID: return_loss_impact
  * Metric Type: MAQL Metric
  */
-export const ReturnCustomersMonthly: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("return_customers_monthly", "measure")
+export const ReturnLossImpact: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("return_loss_impact", "measure")
 );
 /**
- * Metric Title: Returns
- * Metric ID: returns
+ * Metric Title: Revenue by Product
+ * Metric ID: revenue_by_product
  * Metric Type: MAQL Metric
  */
-export const Returns: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("returns", "measure")
+export const RevenueByProduct: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("revenue_by_product", "measure")
 );
 /**
- * Metric Title: % Sell Through
- * Metric ID: sell_through
+ * Metric Title: Sales Conversion Rate
+ * Metric ID: sales_conversion_rate
  * Metric Type: MAQL Metric
  */
-export const PercentSellThrough: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("sell_through", "measure")
+export const SalesConversionRate: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("sales_conversion_rate", "measure")
 );
 /**
- * Metric Title: Threshold 90%
- * Metric ID: threshold_90
+ * Metric Title: Sales-to-Returns Correlation
+ * Metric ID: sales-to-returns_correlation
  * Metric Type: MAQL Metric
  */
-export const Threshold90Percent: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("threshold_90", "measure")
+export const SalesToReturnsCorrelation: IMeasure<IMeasureDefinition> =
+  newMeasure(idRef("sales-to-returns_correlation", "measure"));
+/**
+ * Metric Title: Sell-Through Rate
+ * Metric ID: sell_through_rate
+ * Metric Type: MAQL Metric
+ */
+export const SellThroughRate: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("sell_through_rate", "measure")
 );
+/**
+ * Metric Title: Top Products
+ * Metric ID: top_products
+ * Metric Type: MAQL Metric
+ */
+export const TopProducts: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("top_products", "measure")
+);
+/**
+ * Metric Title: Total BOM Inventory (Ignoring Year)
+ * Metric ID: total_bom_inventory
+ * Metric Type: MAQL Metric
+ */
+export const TotalBOMInventoryIgnoringYear: IMeasure<IMeasureDefinition> =
+  newMeasure(idRef("total_bom_inventory", "measure"));
 /**
  * Metric Title: Total Customers
  * Metric ID: total_customers
@@ -435,12 +566,20 @@ export const TotalDiscounts: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("total_discounts", "measure")
 );
 /**
- * Metric Title: Total Listings
- * Metric ID: total_listings
+ * Metric Title: Total Discounts (Negative)
+ * Metric ID: total_discounts_n
  * Metric Type: MAQL Metric
  */
-export const TotalListings: IMeasure<IMeasureDefinition> = newMeasure(
-  idRef("total_listings", "measure")
+export const TotalDiscountsNegative: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("total_discounts_n", "measure")
+);
+/**
+ * Metric Title: Total Product Costs
+ * Metric ID: total_product_costs
+ * Metric Type: MAQL Metric
+ */
+export const TotalProductCosts: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("total_product_costs", "measure")
 );
 /**
  * Metric Title: Total Returns
@@ -451,6 +590,14 @@ export const TotalReturns: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("total_returns", "measure")
 );
 /**
+ * Metric Title: Total Returns (Negative)
+ * Metric ID: total_returns_n
+ * Metric Type: MAQL Metric
+ */
+export const TotalReturnsNegative: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("total_returns_n", "measure")
+);
+/**
  * Metric Title: Total Sales
  * Metric ID: total_sales
  * Metric Type: MAQL Metric
@@ -459,484 +606,545 @@ export const TotalSales: IMeasure<IMeasureDefinition> = newMeasure(
   idRef("total_sales", "measure")
 );
 /**
+ * Metric Title: Unit Elastic
+ * Metric ID: unit_elastic
+ * Metric Type: MAQL Metric
+ */
+export const UnitElastic: IMeasure<IMeasureDefinition> = newMeasure(
+  idRef("unit_elastic", "measure")
+);
+/**
+ * Metric Title: Product Price vs Return Volume
+ * Metric ID: unit_price_vs_return_volume
+ * Metric Type: MAQL Metric
+ */
+export const ProductPriceVsReturnVolume: IMeasure<IMeasureDefinition> =
+  newMeasure(idRef("unit_price_vs_return_volume", "measure"));
+/**
  * Fact Title: Monthly quantity bom
- * Fact ID: MONTHLY_QUANTITY_BOM
+ * Fact ID: monthly_quantity_bom
  */
 export const MonthlyQuantityBom = {
   /**
    * Fact Title: Monthly quantity bom
-   * Fact ID: MONTHLY_QUANTITY_BOM
+   * Fact ID: monthly_quantity_bom
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("MONTHLY_QUANTITY_BOM", "fact"), (m) =>
+  Sum: newMeasure(idRef("monthly_quantity_bom", "fact"), (m) =>
     m.aggregation("sum")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity bom
-   * Fact ID: MONTHLY_QUANTITY_BOM
+   * Fact ID: monthly_quantity_bom
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("MONTHLY_QUANTITY_BOM", "fact"), (m) =>
+   */,
+  Avg: newMeasure(idRef("monthly_quantity_bom", "fact"), (m) =>
     m.aggregation("avg")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity bom
-   * Fact ID: MONTHLY_QUANTITY_BOM
+   * Fact ID: monthly_quantity_bom
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("MONTHLY_QUANTITY_BOM", "fact"), (m) =>
+   */,
+  Min: newMeasure(idRef("monthly_quantity_bom", "fact"), (m) =>
     m.aggregation("min")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity bom
-   * Fact ID: MONTHLY_QUANTITY_BOM
+   * Fact ID: monthly_quantity_bom
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("MONTHLY_QUANTITY_BOM", "fact"), (m) =>
+   */,
+  Max: newMeasure(idRef("monthly_quantity_bom", "fact"), (m) =>
     m.aggregation("max")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity bom
-   * Fact ID: MONTHLY_QUANTITY_BOM
+   * Fact ID: monthly_quantity_bom
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("MONTHLY_QUANTITY_BOM", "fact"), (m) =>
+   */,
+  Median: newMeasure(idRef("monthly_quantity_bom", "fact"), (m) =>
     m.aggregation("median")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity bom
-   * Fact ID: MONTHLY_QUANTITY_BOM
+   * Fact ID: monthly_quantity_bom
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("MONTHLY_QUANTITY_BOM", "fact"), (m) =>
+   */,
+  Runsum: newMeasure(idRef("monthly_quantity_bom", "fact"), (m) =>
     m.aggregation("runsum")
   ),
 };
 /**
  * Fact Title: Monthly quantity eom
- * Fact ID: MONTHLY_QUANTITY_EOM
+ * Fact ID: monthly_quantity_eom
  */
 export const MonthlyQuantityEom = {
   /**
    * Fact Title: Monthly quantity eom
-   * Fact ID: MONTHLY_QUANTITY_EOM
+   * Fact ID: monthly_quantity_eom
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("MONTHLY_QUANTITY_EOM", "fact"), (m) =>
+  Sum: newMeasure(idRef("monthly_quantity_eom", "fact"), (m) =>
     m.aggregation("sum")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity eom
-   * Fact ID: MONTHLY_QUANTITY_EOM
+   * Fact ID: monthly_quantity_eom
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("MONTHLY_QUANTITY_EOM", "fact"), (m) =>
+   */,
+  Avg: newMeasure(idRef("monthly_quantity_eom", "fact"), (m) =>
     m.aggregation("avg")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity eom
-   * Fact ID: MONTHLY_QUANTITY_EOM
+   * Fact ID: monthly_quantity_eom
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("MONTHLY_QUANTITY_EOM", "fact"), (m) =>
+   */,
+  Min: newMeasure(idRef("monthly_quantity_eom", "fact"), (m) =>
     m.aggregation("min")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity eom
-   * Fact ID: MONTHLY_QUANTITY_EOM
+   * Fact ID: monthly_quantity_eom
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("MONTHLY_QUANTITY_EOM", "fact"), (m) =>
+   */,
+  Max: newMeasure(idRef("monthly_quantity_eom", "fact"), (m) =>
     m.aggregation("max")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity eom
-   * Fact ID: MONTHLY_QUANTITY_EOM
+   * Fact ID: monthly_quantity_eom
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("MONTHLY_QUANTITY_EOM", "fact"), (m) =>
+   */,
+  Median: newMeasure(idRef("monthly_quantity_eom", "fact"), (m) =>
     m.aggregation("median")
-  ),
+  )
   /**
    * Fact Title: Monthly quantity eom
-   * Fact ID: MONTHLY_QUANTITY_EOM
+   * Fact ID: monthly_quantity_eom
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("MONTHLY_QUANTITY_EOM", "fact"), (m) =>
+   */,
+  Runsum: newMeasure(idRef("monthly_quantity_eom", "fact"), (m) =>
     m.aggregation("runsum")
   ),
 };
 /**
  * Fact Title: Order unit cost
- * Fact ID: ORDER_UNIT_COST
+ * Fact ID: order_unit_cost
  */
 export const OrderUnitCost = {
   /**
    * Fact Title: Order unit cost
-   * Fact ID: ORDER_UNIT_COST
+   * Fact ID: order_unit_cost
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("ORDER_UNIT_COST", "fact"), (m) =>
+  Sum: newMeasure(idRef("order_unit_cost", "fact"), (m) =>
     m.aggregation("sum")
-  ),
+  )
   /**
    * Fact Title: Order unit cost
-   * Fact ID: ORDER_UNIT_COST
+   * Fact ID: order_unit_cost
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("ORDER_UNIT_COST", "fact"), (m) =>
+   */,
+  Avg: newMeasure(idRef("order_unit_cost", "fact"), (m) =>
     m.aggregation("avg")
-  ),
+  )
   /**
    * Fact Title: Order unit cost
-   * Fact ID: ORDER_UNIT_COST
+   * Fact ID: order_unit_cost
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("ORDER_UNIT_COST", "fact"), (m) =>
+   */,
+  Min: newMeasure(idRef("order_unit_cost", "fact"), (m) =>
     m.aggregation("min")
-  ),
+  )
   /**
    * Fact Title: Order unit cost
-   * Fact ID: ORDER_UNIT_COST
+   * Fact ID: order_unit_cost
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("ORDER_UNIT_COST", "fact"), (m) =>
+   */,
+  Max: newMeasure(idRef("order_unit_cost", "fact"), (m) =>
     m.aggregation("max")
-  ),
+  )
   /**
    * Fact Title: Order unit cost
-   * Fact ID: ORDER_UNIT_COST
+   * Fact ID: order_unit_cost
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("ORDER_UNIT_COST", "fact"), (m) =>
+   */,
+  Median: newMeasure(idRef("order_unit_cost", "fact"), (m) =>
     m.aggregation("median")
-  ),
+  )
   /**
    * Fact Title: Order unit cost
-   * Fact ID: ORDER_UNIT_COST
+   * Fact ID: order_unit_cost
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("ORDER_UNIT_COST", "fact"), (m) =>
+   */,
+  Runsum: newMeasure(idRef("order_unit_cost", "fact"), (m) =>
     m.aggregation("runsum")
   ),
 };
 /**
  * Fact Title: Order unit discount
- * Fact ID: ORDER_UNIT_DISCOUNT
+ * Fact ID: order_unit_discount
  */
 export const OrderUnitDiscount = {
   /**
    * Fact Title: Order unit discount
-   * Fact ID: ORDER_UNIT_DISCOUNT
+   * Fact ID: order_unit_discount
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("ORDER_UNIT_DISCOUNT", "fact"), (m) =>
+  Sum: newMeasure(idRef("order_unit_discount", "fact"), (m) =>
     m.aggregation("sum")
-  ),
+  )
   /**
    * Fact Title: Order unit discount
-   * Fact ID: ORDER_UNIT_DISCOUNT
+   * Fact ID: order_unit_discount
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("ORDER_UNIT_DISCOUNT", "fact"), (m) =>
+   */,
+  Avg: newMeasure(idRef("order_unit_discount", "fact"), (m) =>
     m.aggregation("avg")
-  ),
+  )
   /**
    * Fact Title: Order unit discount
-   * Fact ID: ORDER_UNIT_DISCOUNT
+   * Fact ID: order_unit_discount
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("ORDER_UNIT_DISCOUNT", "fact"), (m) =>
+   */,
+  Min: newMeasure(idRef("order_unit_discount", "fact"), (m) =>
     m.aggregation("min")
-  ),
+  )
   /**
    * Fact Title: Order unit discount
-   * Fact ID: ORDER_UNIT_DISCOUNT
+   * Fact ID: order_unit_discount
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("ORDER_UNIT_DISCOUNT", "fact"), (m) =>
+   */,
+  Max: newMeasure(idRef("order_unit_discount", "fact"), (m) =>
     m.aggregation("max")
-  ),
+  )
   /**
    * Fact Title: Order unit discount
-   * Fact ID: ORDER_UNIT_DISCOUNT
+   * Fact ID: order_unit_discount
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("ORDER_UNIT_DISCOUNT", "fact"), (m) =>
+   */,
+  Median: newMeasure(idRef("order_unit_discount", "fact"), (m) =>
     m.aggregation("median")
-  ),
+  )
   /**
    * Fact Title: Order unit discount
-   * Fact ID: ORDER_UNIT_DISCOUNT
+   * Fact ID: order_unit_discount
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("ORDER_UNIT_DISCOUNT", "fact"), (m) =>
+   */,
+  Runsum: newMeasure(idRef("order_unit_discount", "fact"), (m) =>
     m.aggregation("runsum")
   ),
 };
 /**
  * Fact Title: Order unit price
- * Fact ID: ORDER_UNIT_PRICE
+ * Fact ID: order_unit_price
  */
 export const OrderUnitPrice = {
   /**
    * Fact Title: Order unit price
-   * Fact ID: ORDER_UNIT_PRICE
+   * Fact ID: order_unit_price
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("ORDER_UNIT_PRICE", "fact"), (m) =>
+  Sum: newMeasure(idRef("order_unit_price", "fact"), (m) =>
     m.aggregation("sum")
-  ),
+  )
   /**
    * Fact Title: Order unit price
-   * Fact ID: ORDER_UNIT_PRICE
+   * Fact ID: order_unit_price
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("ORDER_UNIT_PRICE", "fact"), (m) =>
+   */,
+  Avg: newMeasure(idRef("order_unit_price", "fact"), (m) =>
     m.aggregation("avg")
-  ),
+  )
   /**
    * Fact Title: Order unit price
-   * Fact ID: ORDER_UNIT_PRICE
+   * Fact ID: order_unit_price
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("ORDER_UNIT_PRICE", "fact"), (m) =>
+   */,
+  Min: newMeasure(idRef("order_unit_price", "fact"), (m) =>
     m.aggregation("min")
-  ),
+  )
   /**
    * Fact Title: Order unit price
-   * Fact ID: ORDER_UNIT_PRICE
+   * Fact ID: order_unit_price
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("ORDER_UNIT_PRICE", "fact"), (m) =>
+   */,
+  Max: newMeasure(idRef("order_unit_price", "fact"), (m) =>
     m.aggregation("max")
-  ),
+  )
   /**
    * Fact Title: Order unit price
-   * Fact ID: ORDER_UNIT_PRICE
+   * Fact ID: order_unit_price
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("ORDER_UNIT_PRICE", "fact"), (m) =>
+   */,
+  Median: newMeasure(idRef("order_unit_price", "fact"), (m) =>
     m.aggregation("median")
-  ),
+  )
   /**
    * Fact Title: Order unit price
-   * Fact ID: ORDER_UNIT_PRICE
+   * Fact ID: order_unit_price
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("ORDER_UNIT_PRICE", "fact"), (m) =>
+   */,
+  Runsum: newMeasure(idRef("order_unit_price", "fact"), (m) =>
     m.aggregation("runsum")
   ),
 };
 /**
  * Fact Title: Order unit quantity
- * Fact ID: ORDER_UNIT_QUANTITY
+ * Fact ID: order_unit_quantity
  */
 export const OrderUnitQuantity = {
   /**
    * Fact Title: Order unit quantity
-   * Fact ID: ORDER_UNIT_QUANTITY
+   * Fact ID: order_unit_quantity
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("ORDER_UNIT_QUANTITY", "fact"), (m) =>
+  Sum: newMeasure(idRef("order_unit_quantity", "fact"), (m) =>
     m.aggregation("sum")
-  ),
+  )
   /**
    * Fact Title: Order unit quantity
-   * Fact ID: ORDER_UNIT_QUANTITY
+   * Fact ID: order_unit_quantity
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("ORDER_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Avg: newMeasure(idRef("order_unit_quantity", "fact"), (m) =>
     m.aggregation("avg")
-  ),
+  )
   /**
    * Fact Title: Order unit quantity
-   * Fact ID: ORDER_UNIT_QUANTITY
+   * Fact ID: order_unit_quantity
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("ORDER_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Min: newMeasure(idRef("order_unit_quantity", "fact"), (m) =>
     m.aggregation("min")
-  ),
+  )
   /**
    * Fact Title: Order unit quantity
-   * Fact ID: ORDER_UNIT_QUANTITY
+   * Fact ID: order_unit_quantity
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("ORDER_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Max: newMeasure(idRef("order_unit_quantity", "fact"), (m) =>
     m.aggregation("max")
-  ),
+  )
   /**
    * Fact Title: Order unit quantity
-   * Fact ID: ORDER_UNIT_QUANTITY
+   * Fact ID: order_unit_quantity
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("ORDER_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Median: newMeasure(idRef("order_unit_quantity", "fact"), (m) =>
     m.aggregation("median")
-  ),
+  )
   /**
    * Fact Title: Order unit quantity
-   * Fact ID: ORDER_UNIT_QUANTITY
+   * Fact ID: order_unit_quantity
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("ORDER_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Runsum: newMeasure(idRef("order_unit_quantity", "fact"), (m) =>
     m.aggregation("runsum")
   ),
 };
 /**
  * Fact Title: Rating
- * Fact ID: RATING
+ * Fact ID: rating
  */
 export const Rating = {
   /**
    * Fact Title: Rating
-   * Fact ID: RATING
+   * Fact ID: rating
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("RATING", "fact"), (m) => m.aggregation("sum")),
+  Sum: newMeasure(idRef("rating", "fact"), (m) => m.aggregation("sum"))
   /**
    * Fact Title: Rating
-   * Fact ID: RATING
+   * Fact ID: rating
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("RATING", "fact"), (m) => m.aggregation("avg")),
+   */,
+  Avg: newMeasure(idRef("rating", "fact"), (m) => m.aggregation("avg"))
   /**
    * Fact Title: Rating
-   * Fact ID: RATING
+   * Fact ID: rating
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("RATING", "fact"), (m) => m.aggregation("min")),
+   */,
+  Min: newMeasure(idRef("rating", "fact"), (m) => m.aggregation("min"))
   /**
    * Fact Title: Rating
-   * Fact ID: RATING
+   * Fact ID: rating
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("RATING", "fact"), (m) => m.aggregation("max")),
+   */,
+  Max: newMeasure(idRef("rating", "fact"), (m) => m.aggregation("max"))
   /**
    * Fact Title: Rating
-   * Fact ID: RATING
+   * Fact ID: rating
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("RATING", "fact"), (m) =>
-    m.aggregation("median")
-  ),
+   */,
+  Median: newMeasure(idRef("rating", "fact"), (m) => m.aggregation("median"))
   /**
    * Fact Title: Rating
-   * Fact ID: RATING
+   * Fact ID: rating
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("RATING", "fact"), (m) =>
-    m.aggregation("runsum")
-  ),
+   */,
+  Runsum: newMeasure(idRef("rating", "fact"), (m) => m.aggregation("runsum")),
 };
 /**
  * Fact Title: Return unit cost
- * Fact ID: RETURN_UNIT_COST
+ * Fact ID: return_unit_cost
  */
 export const ReturnUnitCost = {
   /**
    * Fact Title: Return unit cost
-   * Fact ID: RETURN_UNIT_COST
+   * Fact ID: return_unit_cost
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("RETURN_UNIT_COST", "fact"), (m) =>
+  Sum: newMeasure(idRef("return_unit_cost", "fact"), (m) =>
     m.aggregation("sum")
-  ),
+  )
   /**
    * Fact Title: Return unit cost
-   * Fact ID: RETURN_UNIT_COST
+   * Fact ID: return_unit_cost
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("RETURN_UNIT_COST", "fact"), (m) =>
+   */,
+  Avg: newMeasure(idRef("return_unit_cost", "fact"), (m) =>
     m.aggregation("avg")
-  ),
+  )
   /**
    * Fact Title: Return unit cost
-   * Fact ID: RETURN_UNIT_COST
+   * Fact ID: return_unit_cost
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("RETURN_UNIT_COST", "fact"), (m) =>
+   */,
+  Min: newMeasure(idRef("return_unit_cost", "fact"), (m) =>
     m.aggregation("min")
-  ),
+  )
   /**
    * Fact Title: Return unit cost
-   * Fact ID: RETURN_UNIT_COST
+   * Fact ID: return_unit_cost
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("RETURN_UNIT_COST", "fact"), (m) =>
+   */,
+  Max: newMeasure(idRef("return_unit_cost", "fact"), (m) =>
     m.aggregation("max")
-  ),
+  )
   /**
    * Fact Title: Return unit cost
-   * Fact ID: RETURN_UNIT_COST
+   * Fact ID: return_unit_cost
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("RETURN_UNIT_COST", "fact"), (m) =>
+   */,
+  Median: newMeasure(idRef("return_unit_cost", "fact"), (m) =>
     m.aggregation("median")
-  ),
+  )
   /**
    * Fact Title: Return unit cost
-   * Fact ID: RETURN_UNIT_COST
+   * Fact ID: return_unit_cost
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("RETURN_UNIT_COST", "fact"), (m) =>
+   */,
+  Runsum: newMeasure(idRef("return_unit_cost", "fact"), (m) =>
     m.aggregation("runsum")
   ),
 };
 /**
  * Fact Title: Return unit paid amount
- * Fact ID: RETURN_UNIT_PAID_AMOUNT
+ * Fact ID: return_unit_paid_amount
  */
 export const ReturnUnitPaidAmount = {
   /**
    * Fact Title: Return unit paid amount
-   * Fact ID: RETURN_UNIT_PAID_AMOUNT
+   * Fact ID: return_unit_paid_amount
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("RETURN_UNIT_PAID_AMOUNT", "fact"), (m) =>
+  Sum: newMeasure(idRef("return_unit_paid_amount", "fact"), (m) =>
     m.aggregation("sum")
-  ),
+  )
   /**
    * Fact Title: Return unit paid amount
-   * Fact ID: RETURN_UNIT_PAID_AMOUNT
+   * Fact ID: return_unit_paid_amount
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("RETURN_UNIT_PAID_AMOUNT", "fact"), (m) =>
+   */,
+  Avg: newMeasure(idRef("return_unit_paid_amount", "fact"), (m) =>
     m.aggregation("avg")
-  ),
+  )
   /**
    * Fact Title: Return unit paid amount
-   * Fact ID: RETURN_UNIT_PAID_AMOUNT
+   * Fact ID: return_unit_paid_amount
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("RETURN_UNIT_PAID_AMOUNT", "fact"), (m) =>
+   */,
+  Min: newMeasure(idRef("return_unit_paid_amount", "fact"), (m) =>
     m.aggregation("min")
-  ),
+  )
   /**
    * Fact Title: Return unit paid amount
-   * Fact ID: RETURN_UNIT_PAID_AMOUNT
+   * Fact ID: return_unit_paid_amount
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("RETURN_UNIT_PAID_AMOUNT", "fact"), (m) =>
+   */,
+  Max: newMeasure(idRef("return_unit_paid_amount", "fact"), (m) =>
     m.aggregation("max")
-  ),
+  )
   /**
    * Fact Title: Return unit paid amount
-   * Fact ID: RETURN_UNIT_PAID_AMOUNT
+   * Fact ID: return_unit_paid_amount
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("RETURN_UNIT_PAID_AMOUNT", "fact"), (m) =>
+   */,
+  Median: newMeasure(idRef("return_unit_paid_amount", "fact"), (m) =>
     m.aggregation("median")
-  ),
+  )
   /**
    * Fact Title: Return unit paid amount
-   * Fact ID: RETURN_UNIT_PAID_AMOUNT
+   * Fact ID: return_unit_paid_amount
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("RETURN_UNIT_PAID_AMOUNT", "fact"), (m) =>
+   */,
+  Runsum: newMeasure(idRef("return_unit_paid_amount", "fact"), (m) =>
     m.aggregation("runsum")
   ),
 };
 /**
  * Fact Title: Return unit quantity
- * Fact ID: RETURN_UNIT_QUANTITY
+ * Fact ID: return_unit_quantity
  */
 export const ReturnUnitQuantity = {
   /**
    * Fact Title: Return unit quantity
-   * Fact ID: RETURN_UNIT_QUANTITY
+   * Fact ID: return_unit_quantity
    * Fact Aggregation: sum
    */
-  Sum: newMeasure(idRef("RETURN_UNIT_QUANTITY", "fact"), (m) =>
+  Sum: newMeasure(idRef("return_unit_quantity", "fact"), (m) =>
     m.aggregation("sum")
-  ),
+  )
   /**
    * Fact Title: Return unit quantity
-   * Fact ID: RETURN_UNIT_QUANTITY
+   * Fact ID: return_unit_quantity
    * Fact Aggregation: avg
-   */ Avg: newMeasure(idRef("RETURN_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Avg: newMeasure(idRef("return_unit_quantity", "fact"), (m) =>
     m.aggregation("avg")
-  ),
+  )
   /**
    * Fact Title: Return unit quantity
-   * Fact ID: RETURN_UNIT_QUANTITY
+   * Fact ID: return_unit_quantity
    * Fact Aggregation: min
-   */ Min: newMeasure(idRef("RETURN_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Min: newMeasure(idRef("return_unit_quantity", "fact"), (m) =>
     m.aggregation("min")
-  ),
+  )
   /**
    * Fact Title: Return unit quantity
-   * Fact ID: RETURN_UNIT_QUANTITY
+   * Fact ID: return_unit_quantity
    * Fact Aggregation: max
-   */ Max: newMeasure(idRef("RETURN_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Max: newMeasure(idRef("return_unit_quantity", "fact"), (m) =>
     m.aggregation("max")
-  ),
+  )
   /**
    * Fact Title: Return unit quantity
-   * Fact ID: RETURN_UNIT_QUANTITY
+   * Fact ID: return_unit_quantity
    * Fact Aggregation: median
-   */ Median: newMeasure(idRef("RETURN_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Median: newMeasure(idRef("return_unit_quantity", "fact"), (m) =>
     m.aggregation("median")
-  ),
+  )
   /**
    * Fact Title: Return unit quantity
-   * Fact ID: RETURN_UNIT_QUANTITY
+   * Fact ID: return_unit_quantity
    * Fact Aggregation: runsum
-   */ Runsum: newMeasure(idRef("RETURN_UNIT_QUANTITY", "fact"), (m) =>
+   */,
+  Runsum: newMeasure(idRef("return_unit_quantity", "fact"), (m) =>
     m.aggregation("runsum")
   ),
 };
@@ -944,1083 +1152,1509 @@ export const ReturnUnitQuantity = {
 export const DateDatasets = {
   /**
    * Date Data Set Title: Customer created date
-   * Date Data Set ID: CUSTOMER_CREATED_DATE
+   * Date Data Set ID: customer_created_date
    */
   CustomerCreatedDate: {
-    ref: idRef("CUSTOMER_CREATED_DATE", "dataSet"),
-    identifier: "CUSTOMER_CREATED_DATE",
+    ref: idRef("customer_created_date", "dataSet"),
+    identifier: "customer_created_date"
     /**
      * Date Attribute: Customer created date - Date
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.day
-     */ CustomerCreatedDateDate: {
-      ref: idRef("CUSTOMER_CREATED_DATE.day", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.day",
+     * Date Attribute ID: customer_created_date.day
+     */,
+    CustomerCreatedDateDate: {
+      ref: idRef("customer_created_date.day", "attribute"),
+      identifier: "customer_created_date.day"
       /**
        * Display Form Title: Customer created date - Date
-       * Display Form ID: CUSTOMER_CREATED_DATE.day
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.day"),
-    },
+       * Display Form ID: customer_created_date.day
+       */,
+      Default: newAttribute("customer_created_date.day"),
+    }
     /**
      * Date Attribute: Customer created date - Day of Month
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.dayOfMonth
-     */ CustomerCreatedDateDayOfMonth: {
-      ref: idRef("CUSTOMER_CREATED_DATE.dayOfMonth", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.dayOfMonth",
+     * Date Attribute ID: customer_created_date.dayOfMonth
+     */,
+    CustomerCreatedDateDayOfMonth: {
+      ref: idRef("customer_created_date.dayOfMonth", "attribute"),
+      identifier: "customer_created_date.dayOfMonth"
       /**
        * Display Form Title: Customer created date - Day of Month
-       * Display Form ID: CUSTOMER_CREATED_DATE.dayOfMonth
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.dayOfMonth"),
-    },
+       * Display Form ID: customer_created_date.dayOfMonth
+       */,
+      Default: newAttribute("customer_created_date.dayOfMonth"),
+    }
     /**
      * Date Attribute: Customer created date - Day of Week
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.dayOfWeek
-     */ CustomerCreatedDateDayOfWeek: {
-      ref: idRef("CUSTOMER_CREATED_DATE.dayOfWeek", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.dayOfWeek",
+     * Date Attribute ID: customer_created_date.dayOfWeek
+     */,
+    CustomerCreatedDateDayOfWeek: {
+      ref: idRef("customer_created_date.dayOfWeek", "attribute"),
+      identifier: "customer_created_date.dayOfWeek"
       /**
        * Display Form Title: Customer created date - Day of Week
-       * Display Form ID: CUSTOMER_CREATED_DATE.dayOfWeek
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.dayOfWeek"),
-    },
+       * Display Form ID: customer_created_date.dayOfWeek
+       */,
+      Default: newAttribute("customer_created_date.dayOfWeek"),
+    }
     /**
      * Date Attribute: Customer created date - Day of Year
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.dayOfYear
-     */ CustomerCreatedDateDayOfYear: {
-      ref: idRef("CUSTOMER_CREATED_DATE.dayOfYear", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.dayOfYear",
+     * Date Attribute ID: customer_created_date.dayOfYear
+     */,
+    CustomerCreatedDateDayOfYear: {
+      ref: idRef("customer_created_date.dayOfYear", "attribute"),
+      identifier: "customer_created_date.dayOfYear"
       /**
        * Display Form Title: Customer created date - Day of Year
-       * Display Form ID: CUSTOMER_CREATED_DATE.dayOfYear
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.dayOfYear"),
-    },
+       * Display Form ID: customer_created_date.dayOfYear
+       */,
+      Default: newAttribute("customer_created_date.dayOfYear"),
+    }
     /**
      * Date Attribute: Customer created date - Hour
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.hour
-     */ CustomerCreatedDateHour: {
-      ref: idRef("CUSTOMER_CREATED_DATE.hour", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.hour",
+     * Date Attribute ID: customer_created_date.hour
+     */,
+    CustomerCreatedDateHour: {
+      ref: idRef("customer_created_date.hour", "attribute"),
+      identifier: "customer_created_date.hour"
       /**
        * Display Form Title: Customer created date - Hour
-       * Display Form ID: CUSTOMER_CREATED_DATE.hour
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.hour"),
-    },
+       * Display Form ID: customer_created_date.hour
+       */,
+      Default: newAttribute("customer_created_date.hour"),
+    }
     /**
      * Date Attribute: Customer created date - Hour of Day
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.hourOfDay
-     */ CustomerCreatedDateHourOfDay: {
-      ref: idRef("CUSTOMER_CREATED_DATE.hourOfDay", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.hourOfDay",
+     * Date Attribute ID: customer_created_date.hourOfDay
+     */,
+    CustomerCreatedDateHourOfDay: {
+      ref: idRef("customer_created_date.hourOfDay", "attribute"),
+      identifier: "customer_created_date.hourOfDay"
       /**
        * Display Form Title: Customer created date - Hour of Day
-       * Display Form ID: CUSTOMER_CREATED_DATE.hourOfDay
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.hourOfDay"),
-    },
+       * Display Form ID: customer_created_date.hourOfDay
+       */,
+      Default: newAttribute("customer_created_date.hourOfDay"),
+    }
     /**
      * Date Attribute: Customer created date - Minute
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.minute
-     */ CustomerCreatedDateMinute: {
-      ref: idRef("CUSTOMER_CREATED_DATE.minute", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.minute",
+     * Date Attribute ID: customer_created_date.minute
+     */,
+    CustomerCreatedDateMinute: {
+      ref: idRef("customer_created_date.minute", "attribute"),
+      identifier: "customer_created_date.minute"
       /**
        * Display Form Title: Customer created date - Minute
-       * Display Form ID: CUSTOMER_CREATED_DATE.minute
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.minute"),
-    },
+       * Display Form ID: customer_created_date.minute
+       */,
+      Default: newAttribute("customer_created_date.minute"),
+    }
     /**
      * Date Attribute: Customer created date - Minute of Hour
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.minuteOfHour
-     */ CustomerCreatedDateMinuteOfHour: {
-      ref: idRef("CUSTOMER_CREATED_DATE.minuteOfHour", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.minuteOfHour",
+     * Date Attribute ID: customer_created_date.minuteOfHour
+     */,
+    CustomerCreatedDateMinuteOfHour: {
+      ref: idRef("customer_created_date.minuteOfHour", "attribute"),
+      identifier: "customer_created_date.minuteOfHour"
       /**
        * Display Form Title: Customer created date - Minute of Hour
-       * Display Form ID: CUSTOMER_CREATED_DATE.minuteOfHour
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.minuteOfHour"),
-    },
+       * Display Form ID: customer_created_date.minuteOfHour
+       */,
+      Default: newAttribute("customer_created_date.minuteOfHour"),
+    }
     /**
      * Date Attribute: Customer created date - Month/Year
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.month
-     */ CustomerCreatedDateMonthYear: {
-      ref: idRef("CUSTOMER_CREATED_DATE.month", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.month",
+     * Date Attribute ID: customer_created_date.month
+     */,
+    CustomerCreatedDateMonthYear: {
+      ref: idRef("customer_created_date.month", "attribute"),
+      identifier: "customer_created_date.month"
       /**
        * Display Form Title: Customer created date - Month/Year
-       * Display Form ID: CUSTOMER_CREATED_DATE.month
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.month"),
-    },
+       * Display Form ID: customer_created_date.month
+       */,
+      Default: newAttribute("customer_created_date.month"),
+    }
     /**
      * Date Attribute: Customer created date - Month of Year
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.monthOfYear
-     */ CustomerCreatedDateMonthOfYear: {
-      ref: idRef("CUSTOMER_CREATED_DATE.monthOfYear", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.monthOfYear",
+     * Date Attribute ID: customer_created_date.monthOfYear
+     */,
+    CustomerCreatedDateMonthOfYear: {
+      ref: idRef("customer_created_date.monthOfYear", "attribute"),
+      identifier: "customer_created_date.monthOfYear"
       /**
        * Display Form Title: Customer created date - Month of Year
-       * Display Form ID: CUSTOMER_CREATED_DATE.monthOfYear
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.monthOfYear"),
-    },
+       * Display Form ID: customer_created_date.monthOfYear
+       */,
+      Default: newAttribute("customer_created_date.monthOfYear"),
+    }
     /**
      * Date Attribute: Customer created date - Quarter/Year
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.quarter
-     */ CustomerCreatedDateQuarterYear: {
-      ref: idRef("CUSTOMER_CREATED_DATE.quarter", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.quarter",
+     * Date Attribute ID: customer_created_date.quarter
+     */,
+    CustomerCreatedDateQuarterYear: {
+      ref: idRef("customer_created_date.quarter", "attribute"),
+      identifier: "customer_created_date.quarter"
       /**
        * Display Form Title: Customer created date - Quarter/Year
-       * Display Form ID: CUSTOMER_CREATED_DATE.quarter
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.quarter"),
-    },
+       * Display Form ID: customer_created_date.quarter
+       */,
+      Default: newAttribute("customer_created_date.quarter"),
+    }
     /**
      * Date Attribute: Customer created date - Quarter of Year
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.quarterOfYear
-     */ CustomerCreatedDateQuarterOfYear: {
-      ref: idRef("CUSTOMER_CREATED_DATE.quarterOfYear", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.quarterOfYear",
+     * Date Attribute ID: customer_created_date.quarterOfYear
+     */,
+    CustomerCreatedDateQuarterOfYear: {
+      ref: idRef("customer_created_date.quarterOfYear", "attribute"),
+      identifier: "customer_created_date.quarterOfYear"
       /**
        * Display Form Title: Customer created date - Quarter of Year
-       * Display Form ID: CUSTOMER_CREATED_DATE.quarterOfYear
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.quarterOfYear"),
-    },
+       * Display Form ID: customer_created_date.quarterOfYear
+       */,
+      Default: newAttribute("customer_created_date.quarterOfYear"),
+    }
     /**
      * Date Attribute: Customer created date - Week/Year
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.week
-     */ CustomerCreatedDateWeekYear: {
-      ref: idRef("CUSTOMER_CREATED_DATE.week", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.week",
+     * Date Attribute ID: customer_created_date.week
+     */,
+    CustomerCreatedDateWeekYear: {
+      ref: idRef("customer_created_date.week", "attribute"),
+      identifier: "customer_created_date.week"
       /**
        * Display Form Title: Customer created date - Week/Year
-       * Display Form ID: CUSTOMER_CREATED_DATE.week
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.week"),
-    },
+       * Display Form ID: customer_created_date.week
+       */,
+      Default: newAttribute("customer_created_date.week"),
+    }
     /**
      * Date Attribute: Customer created date - Week of Year
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.weekOfYear
-     */ CustomerCreatedDateWeekOfYear: {
-      ref: idRef("CUSTOMER_CREATED_DATE.weekOfYear", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.weekOfYear",
+     * Date Attribute ID: customer_created_date.weekOfYear
+     */,
+    CustomerCreatedDateWeekOfYear: {
+      ref: idRef("customer_created_date.weekOfYear", "attribute"),
+      identifier: "customer_created_date.weekOfYear"
       /**
        * Display Form Title: Customer created date - Week of Year
-       * Display Form ID: CUSTOMER_CREATED_DATE.weekOfYear
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.weekOfYear"),
-    },
+       * Display Form ID: customer_created_date.weekOfYear
+       */,
+      Default: newAttribute("customer_created_date.weekOfYear"),
+    }
     /**
      * Date Attribute: Customer created date - Year
-     * Date Attribute ID: CUSTOMER_CREATED_DATE.year
-     */ CustomerCreatedDateYear: {
-      ref: idRef("CUSTOMER_CREATED_DATE.year", "attribute"),
-      identifier: "CUSTOMER_CREATED_DATE.year",
+     * Date Attribute ID: customer_created_date.year
+     */,
+    CustomerCreatedDateYear: {
+      ref: idRef("customer_created_date.year", "attribute"),
+      identifier: "customer_created_date.year"
       /**
        * Display Form Title: Customer created date - Year
-       * Display Form ID: CUSTOMER_CREATED_DATE.year
-       */ Default: newAttribute("CUSTOMER_CREATED_DATE.year"),
+       * Display Form ID: customer_created_date.year
+       */,
+      Default: newAttribute("customer_created_date.year"),
     },
-  },
+  }
   /**
-   * Date Data Set Title: DATE
-   * Date Data Set ID: DATE
-   */ DATE: {
-    ref: idRef("DATE", "dataSet"),
-    identifier: "DATE",
+   * Date Data Set Title: Date
+   * Date Data Set ID: date
+   */,
+  Date: {
+    ref: idRef("date", "dataSet"),
+    identifier: "date"
     /**
-     * Date Attribute: DATE - Date
-     * Date Attribute ID: DATE.day
-     */ DATEDate: {
-      ref: idRef("DATE.day", "attribute"),
-      identifier: "DATE.day",
+     * Date Attribute: Date - Date
+     * Date Attribute ID: date.day
+     */,
+    DateDate: {
+      ref: idRef("date.day", "attribute"),
+      identifier: "date.day"
       /**
-       * Display Form Title: DATE - Date
-       * Display Form ID: DATE.day
-       */ Default: newAttribute("DATE.day"),
-    },
+       * Display Form Title: Date - Date
+       * Display Form ID: date.day
+       */,
+      Default: newAttribute("date.day"),
+    }
     /**
-     * Date Attribute: DATE - Day of Month
-     * Date Attribute ID: DATE.dayOfMonth
-     */ DATEDayOfMonth: {
-      ref: idRef("DATE.dayOfMonth", "attribute"),
-      identifier: "DATE.dayOfMonth",
+     * Date Attribute: Date - Day of Month
+     * Date Attribute ID: date.dayOfMonth
+     */,
+    DateDayOfMonth: {
+      ref: idRef("date.dayOfMonth", "attribute"),
+      identifier: "date.dayOfMonth"
       /**
-       * Display Form Title: DATE - Day of Month
-       * Display Form ID: DATE.dayOfMonth
-       */ Default: newAttribute("DATE.dayOfMonth"),
-    },
+       * Display Form Title: Date - Day of Month
+       * Display Form ID: date.dayOfMonth
+       */,
+      Default: newAttribute("date.dayOfMonth"),
+    }
     /**
-     * Date Attribute: DATE - Day of Week
-     * Date Attribute ID: DATE.dayOfWeek
-     */ DATEDayOfWeek: {
-      ref: idRef("DATE.dayOfWeek", "attribute"),
-      identifier: "DATE.dayOfWeek",
+     * Date Attribute: Date - Day of Week
+     * Date Attribute ID: date.dayOfWeek
+     */,
+    DateDayOfWeek: {
+      ref: idRef("date.dayOfWeek", "attribute"),
+      identifier: "date.dayOfWeek"
       /**
-       * Display Form Title: DATE - Day of Week
-       * Display Form ID: DATE.dayOfWeek
-       */ Default: newAttribute("DATE.dayOfWeek"),
-    },
+       * Display Form Title: Date - Day of Week
+       * Display Form ID: date.dayOfWeek
+       */,
+      Default: newAttribute("date.dayOfWeek"),
+    }
     /**
-     * Date Attribute: DATE - Day of Year
-     * Date Attribute ID: DATE.dayOfYear
-     */ DATEDayOfYear: {
-      ref: idRef("DATE.dayOfYear", "attribute"),
-      identifier: "DATE.dayOfYear",
+     * Date Attribute: Date - Day of Year
+     * Date Attribute ID: date.dayOfYear
+     */,
+    DateDayOfYear: {
+      ref: idRef("date.dayOfYear", "attribute"),
+      identifier: "date.dayOfYear"
       /**
-       * Display Form Title: DATE - Day of Year
-       * Display Form ID: DATE.dayOfYear
-       */ Default: newAttribute("DATE.dayOfYear"),
-    },
+       * Display Form Title: Date - Day of Year
+       * Display Form ID: date.dayOfYear
+       */,
+      Default: newAttribute("date.dayOfYear"),
+    }
     /**
-     * Date Attribute: DATE - Hour
-     * Date Attribute ID: DATE.hour
-     */ DATEHour: {
-      ref: idRef("DATE.hour", "attribute"),
-      identifier: "DATE.hour",
+     * Date Attribute: Date - Hour
+     * Date Attribute ID: date.hour
+     */,
+    DateHour: {
+      ref: idRef("date.hour", "attribute"),
+      identifier: "date.hour"
       /**
-       * Display Form Title: DATE - Hour
-       * Display Form ID: DATE.hour
-       */ Default: newAttribute("DATE.hour"),
-    },
+       * Display Form Title: Date - Hour
+       * Display Form ID: date.hour
+       */,
+      Default: newAttribute("date.hour"),
+    }
     /**
-     * Date Attribute: DATE - Hour of Day
-     * Date Attribute ID: DATE.hourOfDay
-     */ DATEHourOfDay: {
-      ref: idRef("DATE.hourOfDay", "attribute"),
-      identifier: "DATE.hourOfDay",
+     * Date Attribute: Date - Hour of Day
+     * Date Attribute ID: date.hourOfDay
+     */,
+    DateHourOfDay: {
+      ref: idRef("date.hourOfDay", "attribute"),
+      identifier: "date.hourOfDay"
       /**
-       * Display Form Title: DATE - Hour of Day
-       * Display Form ID: DATE.hourOfDay
-       */ Default: newAttribute("DATE.hourOfDay"),
-    },
+       * Display Form Title: Date - Hour of Day
+       * Display Form ID: date.hourOfDay
+       */,
+      Default: newAttribute("date.hourOfDay"),
+    }
     /**
-     * Date Attribute: DATE - Minute
-     * Date Attribute ID: DATE.minute
-     */ DATEMinute: {
-      ref: idRef("DATE.minute", "attribute"),
-      identifier: "DATE.minute",
+     * Date Attribute: Date - Minute
+     * Date Attribute ID: date.minute
+     */,
+    DateMinute: {
+      ref: idRef("date.minute", "attribute"),
+      identifier: "date.minute"
       /**
-       * Display Form Title: DATE - Minute
-       * Display Form ID: DATE.minute
-       */ Default: newAttribute("DATE.minute"),
-    },
+       * Display Form Title: Date - Minute
+       * Display Form ID: date.minute
+       */,
+      Default: newAttribute("date.minute"),
+    }
     /**
-     * Date Attribute: DATE - Minute of Hour
-     * Date Attribute ID: DATE.minuteOfHour
-     */ DATEMinuteOfHour: {
-      ref: idRef("DATE.minuteOfHour", "attribute"),
-      identifier: "DATE.minuteOfHour",
+     * Date Attribute: Date - Minute of Hour
+     * Date Attribute ID: date.minuteOfHour
+     */,
+    DateMinuteOfHour: {
+      ref: idRef("date.minuteOfHour", "attribute"),
+      identifier: "date.minuteOfHour"
       /**
-       * Display Form Title: DATE - Minute of Hour
-       * Display Form ID: DATE.minuteOfHour
-       */ Default: newAttribute("DATE.minuteOfHour"),
-    },
+       * Display Form Title: Date - Minute of Hour
+       * Display Form ID: date.minuteOfHour
+       */,
+      Default: newAttribute("date.minuteOfHour"),
+    }
     /**
-     * Date Attribute: DATE - Month/Year
-     * Date Attribute ID: DATE.month
-     */ DATEMonthYear: {
-      ref: idRef("DATE.month", "attribute"),
-      identifier: "DATE.month",
+     * Date Attribute: Date - Month/Year
+     * Date Attribute ID: date.month
+     */,
+    DateMonthYear: {
+      ref: idRef("date.month", "attribute"),
+      identifier: "date.month"
       /**
-       * Display Form Title: DATE - Month/Year
-       * Display Form ID: DATE.month
-       */ Default: newAttribute("DATE.month"),
-    },
+       * Display Form Title: Date - Month/Year
+       * Display Form ID: date.month
+       */,
+      Default: newAttribute("date.month"),
+    }
     /**
-     * Date Attribute: DATE - Month of Year
-     * Date Attribute ID: DATE.monthOfYear
-     */ DATEMonthOfYear: {
-      ref: idRef("DATE.monthOfYear", "attribute"),
-      identifier: "DATE.monthOfYear",
+     * Date Attribute: Date - Month of Year
+     * Date Attribute ID: date.monthOfYear
+     */,
+    DateMonthOfYear: {
+      ref: idRef("date.monthOfYear", "attribute"),
+      identifier: "date.monthOfYear"
       /**
-       * Display Form Title: DATE - Month of Year
-       * Display Form ID: DATE.monthOfYear
-       */ Default: newAttribute("DATE.monthOfYear"),
-    },
+       * Display Form Title: Date - Month of Year
+       * Display Form ID: date.monthOfYear
+       */,
+      Default: newAttribute("date.monthOfYear"),
+    }
     /**
-     * Date Attribute: DATE - Quarter/Year
-     * Date Attribute ID: DATE.quarter
-     */ DATEQuarterYear: {
-      ref: idRef("DATE.quarter", "attribute"),
-      identifier: "DATE.quarter",
+     * Date Attribute: Date - Quarter/Year
+     * Date Attribute ID: date.quarter
+     */,
+    DateQuarterYear: {
+      ref: idRef("date.quarter", "attribute"),
+      identifier: "date.quarter"
       /**
-       * Display Form Title: DATE - Quarter/Year
-       * Display Form ID: DATE.quarter
-       */ Default: newAttribute("DATE.quarter"),
-    },
+       * Display Form Title: Date - Quarter/Year
+       * Display Form ID: date.quarter
+       */,
+      Default: newAttribute("date.quarter"),
+    }
     /**
-     * Date Attribute: DATE - Quarter of Year
-     * Date Attribute ID: DATE.quarterOfYear
-     */ DATEQuarterOfYear: {
-      ref: idRef("DATE.quarterOfYear", "attribute"),
-      identifier: "DATE.quarterOfYear",
+     * Date Attribute: Date - Quarter of Year
+     * Date Attribute ID: date.quarterOfYear
+     */,
+    DateQuarterOfYear: {
+      ref: idRef("date.quarterOfYear", "attribute"),
+      identifier: "date.quarterOfYear"
       /**
-       * Display Form Title: DATE - Quarter of Year
-       * Display Form ID: DATE.quarterOfYear
-       */ Default: newAttribute("DATE.quarterOfYear"),
-    },
+       * Display Form Title: Date - Quarter of Year
+       * Display Form ID: date.quarterOfYear
+       */,
+      Default: newAttribute("date.quarterOfYear"),
+    }
     /**
-     * Date Attribute: DATE - Week/Year
-     * Date Attribute ID: DATE.week
-     */ DATEWeekYear: {
-      ref: idRef("DATE.week", "attribute"),
-      identifier: "DATE.week",
+     * Date Attribute: Date - Week/Year
+     * Date Attribute ID: date.week
+     */,
+    DateWeekYear: {
+      ref: idRef("date.week", "attribute"),
+      identifier: "date.week"
       /**
-       * Display Form Title: DATE - Week/Year
-       * Display Form ID: DATE.week
-       */ Default: newAttribute("DATE.week"),
-    },
+       * Display Form Title: Date - Week/Year
+       * Display Form ID: date.week
+       */,
+      Default: newAttribute("date.week"),
+    }
     /**
-     * Date Attribute: DATE - Week of Year
-     * Date Attribute ID: DATE.weekOfYear
-     */ DATEWeekOfYear: {
-      ref: idRef("DATE.weekOfYear", "attribute"),
-      identifier: "DATE.weekOfYear",
+     * Date Attribute: Date - Week of Year
+     * Date Attribute ID: date.weekOfYear
+     */,
+    DateWeekOfYear: {
+      ref: idRef("date.weekOfYear", "attribute"),
+      identifier: "date.weekOfYear"
       /**
-       * Display Form Title: DATE - Week of Year
-       * Display Form ID: DATE.weekOfYear
-       */ Default: newAttribute("DATE.weekOfYear"),
-    },
+       * Display Form Title: Date - Week of Year
+       * Display Form ID: date.weekOfYear
+       */,
+      Default: newAttribute("date.weekOfYear"),
+    }
     /**
-     * Date Attribute: DATE - Year
-     * Date Attribute ID: DATE.year
-     */ DATEYear: {
-      ref: idRef("DATE.year", "attribute"),
-      identifier: "DATE.year",
+     * Date Attribute: Date - Year
+     * Date Attribute ID: date.year
+     */,
+    DateYear: {
+      ref: idRef("date.year", "attribute"),
+      identifier: "date.year"
       /**
-       * Display Form Title: DATE - Year
-       * Display Form ID: DATE.year
-       */ Default: newAttribute("DATE.year"),
+       * Display Form Title: Date - Year
+       * Display Form ID: date.year
+       */,
+      Default: newAttribute("date.year"),
     },
-  },
+  }
   /**
    * Date Data Set Title: Inventory month
-   * Date Data Set ID: INVENTORY_MONTH
-   */ InventoryMonth: {
-    ref: idRef("INVENTORY_MONTH", "dataSet"),
-    identifier: "INVENTORY_MONTH",
+   * Date Data Set ID: inventory_month
+   */,
+  InventoryMonth: {
+    ref: idRef("inventory_month", "dataSet"),
+    identifier: "inventory_month"
     /**
      * Date Attribute: Inventory month - Date
-     * Date Attribute ID: INVENTORY_MONTH.day
-     */ InventoryMonthDate: {
-      ref: idRef("INVENTORY_MONTH.day", "attribute"),
-      identifier: "INVENTORY_MONTH.day",
+     * Date Attribute ID: inventory_month.day
+     */,
+    InventoryMonthDate: {
+      ref: idRef("inventory_month.day", "attribute"),
+      identifier: "inventory_month.day"
       /**
        * Display Form Title: Inventory month - Date
-       * Display Form ID: INVENTORY_MONTH.day
-       */ Default: newAttribute("INVENTORY_MONTH.day"),
-    },
+       * Display Form ID: inventory_month.day
+       */,
+      Default: newAttribute("inventory_month.day"),
+    }
     /**
      * Date Attribute: Inventory month - Day of Month
-     * Date Attribute ID: INVENTORY_MONTH.dayOfMonth
-     */ InventoryMonthDayOfMonth: {
-      ref: idRef("INVENTORY_MONTH.dayOfMonth", "attribute"),
-      identifier: "INVENTORY_MONTH.dayOfMonth",
+     * Date Attribute ID: inventory_month.dayOfMonth
+     */,
+    InventoryMonthDayOfMonth: {
+      ref: idRef("inventory_month.dayOfMonth", "attribute"),
+      identifier: "inventory_month.dayOfMonth"
       /**
        * Display Form Title: Inventory month - Day of Month
-       * Display Form ID: INVENTORY_MONTH.dayOfMonth
-       */ Default: newAttribute("INVENTORY_MONTH.dayOfMonth"),
-    },
+       * Display Form ID: inventory_month.dayOfMonth
+       */,
+      Default: newAttribute("inventory_month.dayOfMonth"),
+    }
     /**
      * Date Attribute: Inventory month - Day of Week
-     * Date Attribute ID: INVENTORY_MONTH.dayOfWeek
-     */ InventoryMonthDayOfWeek: {
-      ref: idRef("INVENTORY_MONTH.dayOfWeek", "attribute"),
-      identifier: "INVENTORY_MONTH.dayOfWeek",
+     * Date Attribute ID: inventory_month.dayOfWeek
+     */,
+    InventoryMonthDayOfWeek: {
+      ref: idRef("inventory_month.dayOfWeek", "attribute"),
+      identifier: "inventory_month.dayOfWeek"
       /**
        * Display Form Title: Inventory month - Day of Week
-       * Display Form ID: INVENTORY_MONTH.dayOfWeek
-       */ Default: newAttribute("INVENTORY_MONTH.dayOfWeek"),
-    },
+       * Display Form ID: inventory_month.dayOfWeek
+       */,
+      Default: newAttribute("inventory_month.dayOfWeek"),
+    }
     /**
      * Date Attribute: Inventory month - Day of Year
-     * Date Attribute ID: INVENTORY_MONTH.dayOfYear
-     */ InventoryMonthDayOfYear: {
-      ref: idRef("INVENTORY_MONTH.dayOfYear", "attribute"),
-      identifier: "INVENTORY_MONTH.dayOfYear",
+     * Date Attribute ID: inventory_month.dayOfYear
+     */,
+    InventoryMonthDayOfYear: {
+      ref: idRef("inventory_month.dayOfYear", "attribute"),
+      identifier: "inventory_month.dayOfYear"
       /**
        * Display Form Title: Inventory month - Day of Year
-       * Display Form ID: INVENTORY_MONTH.dayOfYear
-       */ Default: newAttribute("INVENTORY_MONTH.dayOfYear"),
-    },
+       * Display Form ID: inventory_month.dayOfYear
+       */,
+      Default: newAttribute("inventory_month.dayOfYear"),
+    }
     /**
      * Date Attribute: Inventory month - Hour
-     * Date Attribute ID: INVENTORY_MONTH.hour
-     */ InventoryMonthHour: {
-      ref: idRef("INVENTORY_MONTH.hour", "attribute"),
-      identifier: "INVENTORY_MONTH.hour",
+     * Date Attribute ID: inventory_month.hour
+     */,
+    InventoryMonthHour: {
+      ref: idRef("inventory_month.hour", "attribute"),
+      identifier: "inventory_month.hour"
       /**
        * Display Form Title: Inventory month - Hour
-       * Display Form ID: INVENTORY_MONTH.hour
-       */ Default: newAttribute("INVENTORY_MONTH.hour"),
-    },
+       * Display Form ID: inventory_month.hour
+       */,
+      Default: newAttribute("inventory_month.hour"),
+    }
     /**
      * Date Attribute: Inventory month - Hour of Day
-     * Date Attribute ID: INVENTORY_MONTH.hourOfDay
-     */ InventoryMonthHourOfDay: {
-      ref: idRef("INVENTORY_MONTH.hourOfDay", "attribute"),
-      identifier: "INVENTORY_MONTH.hourOfDay",
+     * Date Attribute ID: inventory_month.hourOfDay
+     */,
+    InventoryMonthHourOfDay: {
+      ref: idRef("inventory_month.hourOfDay", "attribute"),
+      identifier: "inventory_month.hourOfDay"
       /**
        * Display Form Title: Inventory month - Hour of Day
-       * Display Form ID: INVENTORY_MONTH.hourOfDay
-       */ Default: newAttribute("INVENTORY_MONTH.hourOfDay"),
-    },
+       * Display Form ID: inventory_month.hourOfDay
+       */,
+      Default: newAttribute("inventory_month.hourOfDay"),
+    }
     /**
      * Date Attribute: Inventory month - Minute
-     * Date Attribute ID: INVENTORY_MONTH.minute
-     */ InventoryMonthMinute: {
-      ref: idRef("INVENTORY_MONTH.minute", "attribute"),
-      identifier: "INVENTORY_MONTH.minute",
+     * Date Attribute ID: inventory_month.minute
+     */,
+    InventoryMonthMinute: {
+      ref: idRef("inventory_month.minute", "attribute"),
+      identifier: "inventory_month.minute"
       /**
        * Display Form Title: Inventory month - Minute
-       * Display Form ID: INVENTORY_MONTH.minute
-       */ Default: newAttribute("INVENTORY_MONTH.minute"),
-    },
+       * Display Form ID: inventory_month.minute
+       */,
+      Default: newAttribute("inventory_month.minute"),
+    }
     /**
      * Date Attribute: Inventory month - Minute of Hour
-     * Date Attribute ID: INVENTORY_MONTH.minuteOfHour
-     */ InventoryMonthMinuteOfHour: {
-      ref: idRef("INVENTORY_MONTH.minuteOfHour", "attribute"),
-      identifier: "INVENTORY_MONTH.minuteOfHour",
+     * Date Attribute ID: inventory_month.minuteOfHour
+     */,
+    InventoryMonthMinuteOfHour: {
+      ref: idRef("inventory_month.minuteOfHour", "attribute"),
+      identifier: "inventory_month.minuteOfHour"
       /**
        * Display Form Title: Inventory month - Minute of Hour
-       * Display Form ID: INVENTORY_MONTH.minuteOfHour
-       */ Default: newAttribute("INVENTORY_MONTH.minuteOfHour"),
-    },
+       * Display Form ID: inventory_month.minuteOfHour
+       */,
+      Default: newAttribute("inventory_month.minuteOfHour"),
+    }
     /**
      * Date Attribute: Inventory month - Month/Year
-     * Date Attribute ID: INVENTORY_MONTH.month
-     */ InventoryMonthMonthYear: {
-      ref: idRef("INVENTORY_MONTH.month", "attribute"),
-      identifier: "INVENTORY_MONTH.month",
+     * Date Attribute ID: inventory_month.month
+     */,
+    InventoryMonthMonthYear: {
+      ref: idRef("inventory_month.month", "attribute"),
+      identifier: "inventory_month.month"
       /**
        * Display Form Title: Inventory month - Month/Year
-       * Display Form ID: INVENTORY_MONTH.month
-       */ Default: newAttribute("INVENTORY_MONTH.month"),
-    },
+       * Display Form ID: inventory_month.month
+       */,
+      Default: newAttribute("inventory_month.month"),
+    }
     /**
      * Date Attribute: Inventory month - Month of Year
-     * Date Attribute ID: INVENTORY_MONTH.monthOfYear
-     */ InventoryMonthMonthOfYear: {
-      ref: idRef("INVENTORY_MONTH.monthOfYear", "attribute"),
-      identifier: "INVENTORY_MONTH.monthOfYear",
+     * Date Attribute ID: inventory_month.monthOfYear
+     */,
+    InventoryMonthMonthOfYear: {
+      ref: idRef("inventory_month.monthOfYear", "attribute"),
+      identifier: "inventory_month.monthOfYear"
       /**
        * Display Form Title: Inventory month - Month of Year
-       * Display Form ID: INVENTORY_MONTH.monthOfYear
-       */ Default: newAttribute("INVENTORY_MONTH.monthOfYear"),
-    },
+       * Display Form ID: inventory_month.monthOfYear
+       */,
+      Default: newAttribute("inventory_month.monthOfYear"),
+    }
     /**
      * Date Attribute: Inventory month - Quarter/Year
-     * Date Attribute ID: INVENTORY_MONTH.quarter
-     */ InventoryMonthQuarterYear: {
-      ref: idRef("INVENTORY_MONTH.quarter", "attribute"),
-      identifier: "INVENTORY_MONTH.quarter",
+     * Date Attribute ID: inventory_month.quarter
+     */,
+    InventoryMonthQuarterYear: {
+      ref: idRef("inventory_month.quarter", "attribute"),
+      identifier: "inventory_month.quarter"
       /**
        * Display Form Title: Inventory month - Quarter/Year
-       * Display Form ID: INVENTORY_MONTH.quarter
-       */ Default: newAttribute("INVENTORY_MONTH.quarter"),
-    },
+       * Display Form ID: inventory_month.quarter
+       */,
+      Default: newAttribute("inventory_month.quarter"),
+    }
     /**
      * Date Attribute: Inventory month - Quarter of Year
-     * Date Attribute ID: INVENTORY_MONTH.quarterOfYear
-     */ InventoryMonthQuarterOfYear: {
-      ref: idRef("INVENTORY_MONTH.quarterOfYear", "attribute"),
-      identifier: "INVENTORY_MONTH.quarterOfYear",
+     * Date Attribute ID: inventory_month.quarterOfYear
+     */,
+    InventoryMonthQuarterOfYear: {
+      ref: idRef("inventory_month.quarterOfYear", "attribute"),
+      identifier: "inventory_month.quarterOfYear"
       /**
        * Display Form Title: Inventory month - Quarter of Year
-       * Display Form ID: INVENTORY_MONTH.quarterOfYear
-       */ Default: newAttribute("INVENTORY_MONTH.quarterOfYear"),
-    },
+       * Display Form ID: inventory_month.quarterOfYear
+       */,
+      Default: newAttribute("inventory_month.quarterOfYear"),
+    }
     /**
      * Date Attribute: Inventory month - Week/Year
-     * Date Attribute ID: INVENTORY_MONTH.week
-     */ InventoryMonthWeekYear: {
-      ref: idRef("INVENTORY_MONTH.week", "attribute"),
-      identifier: "INVENTORY_MONTH.week",
+     * Date Attribute ID: inventory_month.week
+     */,
+    InventoryMonthWeekYear: {
+      ref: idRef("inventory_month.week", "attribute"),
+      identifier: "inventory_month.week"
       /**
        * Display Form Title: Inventory month - Week/Year
-       * Display Form ID: INVENTORY_MONTH.week
-       */ Default: newAttribute("INVENTORY_MONTH.week"),
-    },
+       * Display Form ID: inventory_month.week
+       */,
+      Default: newAttribute("inventory_month.week"),
+    }
     /**
      * Date Attribute: Inventory month - Week of Year
-     * Date Attribute ID: INVENTORY_MONTH.weekOfYear
-     */ InventoryMonthWeekOfYear: {
-      ref: idRef("INVENTORY_MONTH.weekOfYear", "attribute"),
-      identifier: "INVENTORY_MONTH.weekOfYear",
+     * Date Attribute ID: inventory_month.weekOfYear
+     */,
+    InventoryMonthWeekOfYear: {
+      ref: idRef("inventory_month.weekOfYear", "attribute"),
+      identifier: "inventory_month.weekOfYear"
       /**
        * Display Form Title: Inventory month - Week of Year
-       * Display Form ID: INVENTORY_MONTH.weekOfYear
-       */ Default: newAttribute("INVENTORY_MONTH.weekOfYear"),
-    },
+       * Display Form ID: inventory_month.weekOfYear
+       */,
+      Default: newAttribute("inventory_month.weekOfYear"),
+    }
     /**
      * Date Attribute: Inventory month - Year
-     * Date Attribute ID: INVENTORY_MONTH.year
-     */ InventoryMonthYear: {
-      ref: idRef("INVENTORY_MONTH.year", "attribute"),
-      identifier: "INVENTORY_MONTH.year",
+     * Date Attribute ID: inventory_month.year
+     */,
+    InventoryMonthYear: {
+      ref: idRef("inventory_month.year", "attribute"),
+      identifier: "inventory_month.year"
       /**
        * Display Form Title: Inventory month - Year
-       * Display Form ID: INVENTORY_MONTH.year
-       */ Default: newAttribute("INVENTORY_MONTH.year"),
+       * Display Form ID: inventory_month.year
+       */,
+      Default: newAttribute("inventory_month.year"),
     },
-  },
+  }
   /**
    * Date Data Set Title: Order date
-   * Date Data Set ID: ORDER_DATE
-   */ OrderDate: {
-    ref: idRef("ORDER_DATE", "dataSet"),
-    identifier: "ORDER_DATE",
+   * Date Data Set ID: order_date
+   */,
+  OrderDate: {
+    ref: idRef("order_date", "dataSet"),
+    identifier: "order_date"
     /**
      * Date Attribute: Order date - Date
-     * Date Attribute ID: ORDER_DATE.day
-     */ OrderDateDate: {
-      ref: idRef("ORDER_DATE.day", "attribute"),
-      identifier: "ORDER_DATE.day",
+     * Date Attribute ID: order_date.day
+     */,
+    OrderDateDate: {
+      ref: idRef("order_date.day", "attribute"),
+      identifier: "order_date.day"
       /**
        * Display Form Title: Order date - Date
-       * Display Form ID: ORDER_DATE.day
-       */ Default: newAttribute("ORDER_DATE.day"),
-    },
+       * Display Form ID: order_date.day
+       */,
+      Default: newAttribute("order_date.day"),
+    }
     /**
      * Date Attribute: Order date - Day of Month
-     * Date Attribute ID: ORDER_DATE.dayOfMonth
-     */ OrderDateDayOfMonth: {
-      ref: idRef("ORDER_DATE.dayOfMonth", "attribute"),
-      identifier: "ORDER_DATE.dayOfMonth",
+     * Date Attribute ID: order_date.dayOfMonth
+     */,
+    OrderDateDayOfMonth: {
+      ref: idRef("order_date.dayOfMonth", "attribute"),
+      identifier: "order_date.dayOfMonth"
       /**
        * Display Form Title: Order date - Day of Month
-       * Display Form ID: ORDER_DATE.dayOfMonth
-       */ Default: newAttribute("ORDER_DATE.dayOfMonth"),
-    },
+       * Display Form ID: order_date.dayOfMonth
+       */,
+      Default: newAttribute("order_date.dayOfMonth"),
+    }
     /**
      * Date Attribute: Order date - Day of Week
-     * Date Attribute ID: ORDER_DATE.dayOfWeek
-     */ OrderDateDayOfWeek: {
-      ref: idRef("ORDER_DATE.dayOfWeek", "attribute"),
-      identifier: "ORDER_DATE.dayOfWeek",
+     * Date Attribute ID: order_date.dayOfWeek
+     */,
+    OrderDateDayOfWeek: {
+      ref: idRef("order_date.dayOfWeek", "attribute"),
+      identifier: "order_date.dayOfWeek"
       /**
        * Display Form Title: Order date - Day of Week
-       * Display Form ID: ORDER_DATE.dayOfWeek
-       */ Default: newAttribute("ORDER_DATE.dayOfWeek"),
-    },
+       * Display Form ID: order_date.dayOfWeek
+       */,
+      Default: newAttribute("order_date.dayOfWeek"),
+    }
     /**
      * Date Attribute: Order date - Day of Year
-     * Date Attribute ID: ORDER_DATE.dayOfYear
-     */ OrderDateDayOfYear: {
-      ref: idRef("ORDER_DATE.dayOfYear", "attribute"),
-      identifier: "ORDER_DATE.dayOfYear",
+     * Date Attribute ID: order_date.dayOfYear
+     */,
+    OrderDateDayOfYear: {
+      ref: idRef("order_date.dayOfYear", "attribute"),
+      identifier: "order_date.dayOfYear"
       /**
        * Display Form Title: Order date - Day of Year
-       * Display Form ID: ORDER_DATE.dayOfYear
-       */ Default: newAttribute("ORDER_DATE.dayOfYear"),
-    },
+       * Display Form ID: order_date.dayOfYear
+       */,
+      Default: newAttribute("order_date.dayOfYear"),
+    }
     /**
      * Date Attribute: Order date - Hour
-     * Date Attribute ID: ORDER_DATE.hour
-     */ OrderDateHour: {
-      ref: idRef("ORDER_DATE.hour", "attribute"),
-      identifier: "ORDER_DATE.hour",
+     * Date Attribute ID: order_date.hour
+     */,
+    OrderDateHour: {
+      ref: idRef("order_date.hour", "attribute"),
+      identifier: "order_date.hour"
       /**
        * Display Form Title: Order date - Hour
-       * Display Form ID: ORDER_DATE.hour
-       */ Default: newAttribute("ORDER_DATE.hour"),
-    },
+       * Display Form ID: order_date.hour
+       */,
+      Default: newAttribute("order_date.hour"),
+    }
     /**
      * Date Attribute: Order date - Hour of Day
-     * Date Attribute ID: ORDER_DATE.hourOfDay
-     */ OrderDateHourOfDay: {
-      ref: idRef("ORDER_DATE.hourOfDay", "attribute"),
-      identifier: "ORDER_DATE.hourOfDay",
+     * Date Attribute ID: order_date.hourOfDay
+     */,
+    OrderDateHourOfDay: {
+      ref: idRef("order_date.hourOfDay", "attribute"),
+      identifier: "order_date.hourOfDay"
       /**
        * Display Form Title: Order date - Hour of Day
-       * Display Form ID: ORDER_DATE.hourOfDay
-       */ Default: newAttribute("ORDER_DATE.hourOfDay"),
-    },
+       * Display Form ID: order_date.hourOfDay
+       */,
+      Default: newAttribute("order_date.hourOfDay"),
+    }
     /**
      * Date Attribute: Order date - Minute
-     * Date Attribute ID: ORDER_DATE.minute
-     */ OrderDateMinute: {
-      ref: idRef("ORDER_DATE.minute", "attribute"),
-      identifier: "ORDER_DATE.minute",
+     * Date Attribute ID: order_date.minute
+     */,
+    OrderDateMinute: {
+      ref: idRef("order_date.minute", "attribute"),
+      identifier: "order_date.minute"
       /**
        * Display Form Title: Order date - Minute
-       * Display Form ID: ORDER_DATE.minute
-       */ Default: newAttribute("ORDER_DATE.minute"),
-    },
+       * Display Form ID: order_date.minute
+       */,
+      Default: newAttribute("order_date.minute"),
+    }
     /**
      * Date Attribute: Order date - Minute of Hour
-     * Date Attribute ID: ORDER_DATE.minuteOfHour
-     */ OrderDateMinuteOfHour: {
-      ref: idRef("ORDER_DATE.minuteOfHour", "attribute"),
-      identifier: "ORDER_DATE.minuteOfHour",
+     * Date Attribute ID: order_date.minuteOfHour
+     */,
+    OrderDateMinuteOfHour: {
+      ref: idRef("order_date.minuteOfHour", "attribute"),
+      identifier: "order_date.minuteOfHour"
       /**
        * Display Form Title: Order date - Minute of Hour
-       * Display Form ID: ORDER_DATE.minuteOfHour
-       */ Default: newAttribute("ORDER_DATE.minuteOfHour"),
-    },
+       * Display Form ID: order_date.minuteOfHour
+       */,
+      Default: newAttribute("order_date.minuteOfHour"),
+    }
     /**
      * Date Attribute: Order date - Month/Year
-     * Date Attribute ID: ORDER_DATE.month
-     */ OrderDateMonthYear: {
-      ref: idRef("ORDER_DATE.month", "attribute"),
-      identifier: "ORDER_DATE.month",
+     * Date Attribute ID: order_date.month
+     */,
+    OrderDateMonthYear: {
+      ref: idRef("order_date.month", "attribute"),
+      identifier: "order_date.month"
       /**
        * Display Form Title: Order date - Month/Year
-       * Display Form ID: ORDER_DATE.month
-       */ Default: newAttribute("ORDER_DATE.month"),
-    },
+       * Display Form ID: order_date.month
+       */,
+      Default: newAttribute("order_date.month"),
+    }
     /**
      * Date Attribute: Order date - Month of Year
-     * Date Attribute ID: ORDER_DATE.monthOfYear
-     */ OrderDateMonthOfYear: {
-      ref: idRef("ORDER_DATE.monthOfYear", "attribute"),
-      identifier: "ORDER_DATE.monthOfYear",
+     * Date Attribute ID: order_date.monthOfYear
+     */,
+    OrderDateMonthOfYear: {
+      ref: idRef("order_date.monthOfYear", "attribute"),
+      identifier: "order_date.monthOfYear"
       /**
        * Display Form Title: Order date - Month of Year
-       * Display Form ID: ORDER_DATE.monthOfYear
-       */ Default: newAttribute("ORDER_DATE.monthOfYear"),
-    },
+       * Display Form ID: order_date.monthOfYear
+       */,
+      Default: newAttribute("order_date.monthOfYear"),
+    }
     /**
      * Date Attribute: Order date - Quarter/Year
-     * Date Attribute ID: ORDER_DATE.quarter
-     */ OrderDateQuarterYear: {
-      ref: idRef("ORDER_DATE.quarter", "attribute"),
-      identifier: "ORDER_DATE.quarter",
+     * Date Attribute ID: order_date.quarter
+     */,
+    OrderDateQuarterYear: {
+      ref: idRef("order_date.quarter", "attribute"),
+      identifier: "order_date.quarter"
       /**
        * Display Form Title: Order date - Quarter/Year
-       * Display Form ID: ORDER_DATE.quarter
-       */ Default: newAttribute("ORDER_DATE.quarter"),
-    },
+       * Display Form ID: order_date.quarter
+       */,
+      Default: newAttribute("order_date.quarter"),
+    }
     /**
      * Date Attribute: Order date - Quarter of Year
-     * Date Attribute ID: ORDER_DATE.quarterOfYear
-     */ OrderDateQuarterOfYear: {
-      ref: idRef("ORDER_DATE.quarterOfYear", "attribute"),
-      identifier: "ORDER_DATE.quarterOfYear",
+     * Date Attribute ID: order_date.quarterOfYear
+     */,
+    OrderDateQuarterOfYear: {
+      ref: idRef("order_date.quarterOfYear", "attribute"),
+      identifier: "order_date.quarterOfYear"
       /**
        * Display Form Title: Order date - Quarter of Year
-       * Display Form ID: ORDER_DATE.quarterOfYear
-       */ Default: newAttribute("ORDER_DATE.quarterOfYear"),
-    },
+       * Display Form ID: order_date.quarterOfYear
+       */,
+      Default: newAttribute("order_date.quarterOfYear"),
+    }
     /**
      * Date Attribute: Order date - Week/Year
-     * Date Attribute ID: ORDER_DATE.week
-     */ OrderDateWeekYear: {
-      ref: idRef("ORDER_DATE.week", "attribute"),
-      identifier: "ORDER_DATE.week",
+     * Date Attribute ID: order_date.week
+     */,
+    OrderDateWeekYear: {
+      ref: idRef("order_date.week", "attribute"),
+      identifier: "order_date.week"
       /**
        * Display Form Title: Order date - Week/Year
-       * Display Form ID: ORDER_DATE.week
-       */ Default: newAttribute("ORDER_DATE.week"),
-    },
+       * Display Form ID: order_date.week
+       */,
+      Default: newAttribute("order_date.week"),
+    }
     /**
      * Date Attribute: Order date - Week of Year
-     * Date Attribute ID: ORDER_DATE.weekOfYear
-     */ OrderDateWeekOfYear: {
-      ref: idRef("ORDER_DATE.weekOfYear", "attribute"),
-      identifier: "ORDER_DATE.weekOfYear",
+     * Date Attribute ID: order_date.weekOfYear
+     */,
+    OrderDateWeekOfYear: {
+      ref: idRef("order_date.weekOfYear", "attribute"),
+      identifier: "order_date.weekOfYear"
       /**
        * Display Form Title: Order date - Week of Year
-       * Display Form ID: ORDER_DATE.weekOfYear
-       */ Default: newAttribute("ORDER_DATE.weekOfYear"),
-    },
+       * Display Form ID: order_date.weekOfYear
+       */,
+      Default: newAttribute("order_date.weekOfYear"),
+    }
     /**
      * Date Attribute: Order date - Year
-     * Date Attribute ID: ORDER_DATE.year
-     */ OrderDateYear: {
-      ref: idRef("ORDER_DATE.year", "attribute"),
-      identifier: "ORDER_DATE.year",
+     * Date Attribute ID: order_date.year
+     */,
+    OrderDateYear: {
+      ref: idRef("order_date.year", "attribute"),
+      identifier: "order_date.year"
       /**
        * Display Form Title: Order date - Year
-       * Display Form ID: ORDER_DATE.year
-       */ Default: newAttribute("ORDER_DATE.year"),
+       * Display Form ID: order_date.year
+       */,
+      Default: newAttribute("order_date.year"),
     },
-  },
+  }
   /**
    * Date Data Set Title: Return date
-   * Date Data Set ID: RETURN_DATE
-   */ ReturnDate: {
-    ref: idRef("RETURN_DATE", "dataSet"),
-    identifier: "RETURN_DATE",
+   * Date Data Set ID: return_date
+   */,
+  ReturnDate: {
+    ref: idRef("return_date", "dataSet"),
+    identifier: "return_date"
     /**
      * Date Attribute: Return date - Date
-     * Date Attribute ID: RETURN_DATE.day
-     */ ReturnDateDate: {
-      ref: idRef("RETURN_DATE.day", "attribute"),
-      identifier: "RETURN_DATE.day",
+     * Date Attribute ID: return_date.day
+     */,
+    ReturnDateDate: {
+      ref: idRef("return_date.day", "attribute"),
+      identifier: "return_date.day"
       /**
        * Display Form Title: Return date - Date
-       * Display Form ID: RETURN_DATE.day
-       */ Default: newAttribute("RETURN_DATE.day"),
-    },
+       * Display Form ID: return_date.day
+       */,
+      Default: newAttribute("return_date.day"),
+    }
     /**
      * Date Attribute: Return date - Day of Month
-     * Date Attribute ID: RETURN_DATE.dayOfMonth
-     */ ReturnDateDayOfMonth: {
-      ref: idRef("RETURN_DATE.dayOfMonth", "attribute"),
-      identifier: "RETURN_DATE.dayOfMonth",
+     * Date Attribute ID: return_date.dayOfMonth
+     */,
+    ReturnDateDayOfMonth: {
+      ref: idRef("return_date.dayOfMonth", "attribute"),
+      identifier: "return_date.dayOfMonth"
       /**
        * Display Form Title: Return date - Day of Month
-       * Display Form ID: RETURN_DATE.dayOfMonth
-       */ Default: newAttribute("RETURN_DATE.dayOfMonth"),
-    },
+       * Display Form ID: return_date.dayOfMonth
+       */,
+      Default: newAttribute("return_date.dayOfMonth"),
+    }
     /**
      * Date Attribute: Return date - Day of Week
-     * Date Attribute ID: RETURN_DATE.dayOfWeek
-     */ ReturnDateDayOfWeek: {
-      ref: idRef("RETURN_DATE.dayOfWeek", "attribute"),
-      identifier: "RETURN_DATE.dayOfWeek",
+     * Date Attribute ID: return_date.dayOfWeek
+     */,
+    ReturnDateDayOfWeek: {
+      ref: idRef("return_date.dayOfWeek", "attribute"),
+      identifier: "return_date.dayOfWeek"
       /**
        * Display Form Title: Return date - Day of Week
-       * Display Form ID: RETURN_DATE.dayOfWeek
-       */ Default: newAttribute("RETURN_DATE.dayOfWeek"),
-    },
+       * Display Form ID: return_date.dayOfWeek
+       */,
+      Default: newAttribute("return_date.dayOfWeek"),
+    }
     /**
      * Date Attribute: Return date - Day of Year
-     * Date Attribute ID: RETURN_DATE.dayOfYear
-     */ ReturnDateDayOfYear: {
-      ref: idRef("RETURN_DATE.dayOfYear", "attribute"),
-      identifier: "RETURN_DATE.dayOfYear",
+     * Date Attribute ID: return_date.dayOfYear
+     */,
+    ReturnDateDayOfYear: {
+      ref: idRef("return_date.dayOfYear", "attribute"),
+      identifier: "return_date.dayOfYear"
       /**
        * Display Form Title: Return date - Day of Year
-       * Display Form ID: RETURN_DATE.dayOfYear
-       */ Default: newAttribute("RETURN_DATE.dayOfYear"),
-    },
+       * Display Form ID: return_date.dayOfYear
+       */,
+      Default: newAttribute("return_date.dayOfYear"),
+    }
     /**
      * Date Attribute: Return date - Hour
-     * Date Attribute ID: RETURN_DATE.hour
-     */ ReturnDateHour: {
-      ref: idRef("RETURN_DATE.hour", "attribute"),
-      identifier: "RETURN_DATE.hour",
+     * Date Attribute ID: return_date.hour
+     */,
+    ReturnDateHour: {
+      ref: idRef("return_date.hour", "attribute"),
+      identifier: "return_date.hour"
       /**
        * Display Form Title: Return date - Hour
-       * Display Form ID: RETURN_DATE.hour
-       */ Default: newAttribute("RETURN_DATE.hour"),
-    },
+       * Display Form ID: return_date.hour
+       */,
+      Default: newAttribute("return_date.hour"),
+    }
     /**
      * Date Attribute: Return date - Hour of Day
-     * Date Attribute ID: RETURN_DATE.hourOfDay
-     */ ReturnDateHourOfDay: {
-      ref: idRef("RETURN_DATE.hourOfDay", "attribute"),
-      identifier: "RETURN_DATE.hourOfDay",
+     * Date Attribute ID: return_date.hourOfDay
+     */,
+    ReturnDateHourOfDay: {
+      ref: idRef("return_date.hourOfDay", "attribute"),
+      identifier: "return_date.hourOfDay"
       /**
        * Display Form Title: Return date - Hour of Day
-       * Display Form ID: RETURN_DATE.hourOfDay
-       */ Default: newAttribute("RETURN_DATE.hourOfDay"),
-    },
+       * Display Form ID: return_date.hourOfDay
+       */,
+      Default: newAttribute("return_date.hourOfDay"),
+    }
     /**
      * Date Attribute: Return date - Minute
-     * Date Attribute ID: RETURN_DATE.minute
-     */ ReturnDateMinute: {
-      ref: idRef("RETURN_DATE.minute", "attribute"),
-      identifier: "RETURN_DATE.minute",
+     * Date Attribute ID: return_date.minute
+     */,
+    ReturnDateMinute: {
+      ref: idRef("return_date.minute", "attribute"),
+      identifier: "return_date.minute"
       /**
        * Display Form Title: Return date - Minute
-       * Display Form ID: RETURN_DATE.minute
-       */ Default: newAttribute("RETURN_DATE.minute"),
-    },
+       * Display Form ID: return_date.minute
+       */,
+      Default: newAttribute("return_date.minute"),
+    }
     /**
      * Date Attribute: Return date - Minute of Hour
-     * Date Attribute ID: RETURN_DATE.minuteOfHour
-     */ ReturnDateMinuteOfHour: {
-      ref: idRef("RETURN_DATE.minuteOfHour", "attribute"),
-      identifier: "RETURN_DATE.minuteOfHour",
+     * Date Attribute ID: return_date.minuteOfHour
+     */,
+    ReturnDateMinuteOfHour: {
+      ref: idRef("return_date.minuteOfHour", "attribute"),
+      identifier: "return_date.minuteOfHour"
       /**
        * Display Form Title: Return date - Minute of Hour
-       * Display Form ID: RETURN_DATE.minuteOfHour
-       */ Default: newAttribute("RETURN_DATE.minuteOfHour"),
-    },
+       * Display Form ID: return_date.minuteOfHour
+       */,
+      Default: newAttribute("return_date.minuteOfHour"),
+    }
     /**
      * Date Attribute: Return date - Month/Year
-     * Date Attribute ID: RETURN_DATE.month
-     */ ReturnDateMonthYear: {
-      ref: idRef("RETURN_DATE.month", "attribute"),
-      identifier: "RETURN_DATE.month",
+     * Date Attribute ID: return_date.month
+     */,
+    ReturnDateMonthYear: {
+      ref: idRef("return_date.month", "attribute"),
+      identifier: "return_date.month"
       /**
        * Display Form Title: Return date - Month/Year
-       * Display Form ID: RETURN_DATE.month
-       */ Default: newAttribute("RETURN_DATE.month"),
-    },
+       * Display Form ID: return_date.month
+       */,
+      Default: newAttribute("return_date.month"),
+    }
     /**
      * Date Attribute: Return date - Month of Year
-     * Date Attribute ID: RETURN_DATE.monthOfYear
-     */ ReturnDateMonthOfYear: {
-      ref: idRef("RETURN_DATE.monthOfYear", "attribute"),
-      identifier: "RETURN_DATE.monthOfYear",
+     * Date Attribute ID: return_date.monthOfYear
+     */,
+    ReturnDateMonthOfYear: {
+      ref: idRef("return_date.monthOfYear", "attribute"),
+      identifier: "return_date.monthOfYear"
       /**
        * Display Form Title: Return date - Month of Year
-       * Display Form ID: RETURN_DATE.monthOfYear
-       */ Default: newAttribute("RETURN_DATE.monthOfYear"),
-    },
+       * Display Form ID: return_date.monthOfYear
+       */,
+      Default: newAttribute("return_date.monthOfYear"),
+    }
     /**
      * Date Attribute: Return date - Quarter/Year
-     * Date Attribute ID: RETURN_DATE.quarter
-     */ ReturnDateQuarterYear: {
-      ref: idRef("RETURN_DATE.quarter", "attribute"),
-      identifier: "RETURN_DATE.quarter",
+     * Date Attribute ID: return_date.quarter
+     */,
+    ReturnDateQuarterYear: {
+      ref: idRef("return_date.quarter", "attribute"),
+      identifier: "return_date.quarter"
       /**
        * Display Form Title: Return date - Quarter/Year
-       * Display Form ID: RETURN_DATE.quarter
-       */ Default: newAttribute("RETURN_DATE.quarter"),
-    },
+       * Display Form ID: return_date.quarter
+       */,
+      Default: newAttribute("return_date.quarter"),
+    }
     /**
      * Date Attribute: Return date - Quarter of Year
-     * Date Attribute ID: RETURN_DATE.quarterOfYear
-     */ ReturnDateQuarterOfYear: {
-      ref: idRef("RETURN_DATE.quarterOfYear", "attribute"),
-      identifier: "RETURN_DATE.quarterOfYear",
+     * Date Attribute ID: return_date.quarterOfYear
+     */,
+    ReturnDateQuarterOfYear: {
+      ref: idRef("return_date.quarterOfYear", "attribute"),
+      identifier: "return_date.quarterOfYear"
       /**
        * Display Form Title: Return date - Quarter of Year
-       * Display Form ID: RETURN_DATE.quarterOfYear
-       */ Default: newAttribute("RETURN_DATE.quarterOfYear"),
-    },
+       * Display Form ID: return_date.quarterOfYear
+       */,
+      Default: newAttribute("return_date.quarterOfYear"),
+    }
     /**
      * Date Attribute: Return date - Week/Year
-     * Date Attribute ID: RETURN_DATE.week
-     */ ReturnDateWeekYear: {
-      ref: idRef("RETURN_DATE.week", "attribute"),
-      identifier: "RETURN_DATE.week",
+     * Date Attribute ID: return_date.week
+     */,
+    ReturnDateWeekYear: {
+      ref: idRef("return_date.week", "attribute"),
+      identifier: "return_date.week"
       /**
        * Display Form Title: Return date - Week/Year
-       * Display Form ID: RETURN_DATE.week
-       */ Default: newAttribute("RETURN_DATE.week"),
-    },
+       * Display Form ID: return_date.week
+       */,
+      Default: newAttribute("return_date.week"),
+    }
     /**
      * Date Attribute: Return date - Week of Year
-     * Date Attribute ID: RETURN_DATE.weekOfYear
-     */ ReturnDateWeekOfYear: {
-      ref: idRef("RETURN_DATE.weekOfYear", "attribute"),
-      identifier: "RETURN_DATE.weekOfYear",
+     * Date Attribute ID: return_date.weekOfYear
+     */,
+    ReturnDateWeekOfYear: {
+      ref: idRef("return_date.weekOfYear", "attribute"),
+      identifier: "return_date.weekOfYear"
       /**
        * Display Form Title: Return date - Week of Year
-       * Display Form ID: RETURN_DATE.weekOfYear
-       */ Default: newAttribute("RETURN_DATE.weekOfYear"),
-    },
+       * Display Form ID: return_date.weekOfYear
+       */,
+      Default: newAttribute("return_date.weekOfYear"),
+    }
     /**
      * Date Attribute: Return date - Year
-     * Date Attribute ID: RETURN_DATE.year
-     */ ReturnDateYear: {
-      ref: idRef("RETURN_DATE.year", "attribute"),
-      identifier: "RETURN_DATE.year",
+     * Date Attribute ID: return_date.year
+     */,
+    ReturnDateYear: {
+      ref: idRef("return_date.year", "attribute"),
+      identifier: "return_date.year"
       /**
        * Display Form Title: Return date - Year
-       * Display Form ID: RETURN_DATE.year
-       */ Default: newAttribute("RETURN_DATE.year"),
+       * Display Form ID: return_date.year
+       */,
+      Default: newAttribute("return_date.year"),
     },
   },
 };
 export const Insights = {
   /**
-   * Insight Title: Total Listings by Product Category
-   * Insight ID: 01c11542-c388-4df6-a841-19d930d9ba92
-   */
-  TotalListingsByProductCategory: "01c11542-c388-4df6-a841-19d930d9ba92",
-  /**
    * Insight Title: Gross Profit Margin
    * Insight ID: 03b89e08-ee06-4e1f-88d8-bbd805c691cc
-   */ GrossProfitMargin_1: "03b89e08-ee06-4e1f-88d8-bbd805c691cc",
+   */
+  GrossProfitMargin_1: "03b89e08-ee06-4e1f-88d8-bbd805c691cc"
   /**
-   * Insight Title: 123
-   * Insight ID: 08a18c97-f44b-4f73-88c1-135ae063e75e
-   */ _123: "08a18c97-f44b-4f73-88c1-135ae063e75e",
+   * Insight Title: Active Customers by Country
+   * Insight ID: 03c5c0f3-f513-4444-b2b4-267236d88ca1
+   */,
+  ActiveCustomersByCountry: "03c5c0f3-f513-4444-b2b4-267236d88ca1"
   /**
-   * Insight Title: Net Sales by Product Category Seasonality
+   * Insight Title: Sales Performance by Product Category Over Time
    * Insight ID: 09a05f3f-d0cd-423a-8844-eba4ba7ca0c4
-   */ NetSalesByProductCategorySeasonality:
-    "09a05f3f-d0cd-423a-8844-eba4ba7ca0c4",
+   */,
+  SalesPerformanceByProductCategoryOverTime:
+    "09a05f3f-d0cd-423a-8844-eba4ba7ca0c4"
   /**
-   * Insight Title: Sales per Customer
+   * Insight Title: From Search to Sale: Active Customers vs. Orders Placed
+   * Insight ID: 0b245f1d-aad7-4089-aaf4-a15e25695e7c
+   */,
+  FromSearchToSaleActiveCustomersVsOrdersPlaced:
+    "0b245f1d-aad7-4089-aaf4-a15e25695e7c"
+  /**
+   * Insight Title: Top 5 States by Number of Orders
+   * Insight ID: 0becb676-5ad6-4d6e-bac4-391536bc7a13
+   */,
+  Top5StatesByNumberOfOrders: "0becb676-5ad6-4d6e-bac4-391536bc7a13"
+  /**
+   * Insight Title: Average Sales per Customer
    * Insight ID: 0c7ac154-1766-4d54-ba2b-b6f6913a59dd
-   */ SalesPerCustomer: "0c7ac154-1766-4d54-ba2b-b6f6913a59dd",
+   */,
+  AverageSalesPerCustomer: "0c7ac154-1766-4d54-ba2b-b6f6913a59dd"
   /**
-   * Insight Title: Order details
+   * Insight Title: Sales Conversion Rate by Order Status
+   * Insight ID: 0f9b8f28-7335-40c5-922f-8a55d00358fe
+   */,
+  SalesConversionRateByOrderStatus: "0f9b8f28-7335-40c5-922f-8a55d00358fe"
+  /**
+   * Insight Title: Product Details
+   * Insight ID: 1072a9a6-bd90-4af9-ae0f-cd3d41a8db78
+   */,
+  ProductDetails: "1072a9a6-bd90-4af9-ae0f-cd3d41a8db78"
+  /**
+   * Insight Title: Product Preferences by Customers
+   * Insight ID: 11dabf39-fcbd-4429-8eee-50bd56da5d8b
+   */,
+  ProductPreferencesByCustomers: "11dabf39-fcbd-4429-8eee-50bd56da5d8b"
+  /**
+   * Insight Title: Active Customers & Placed Orders by Location
+   * Insight ID: 12b824f3-c529-4f2b-97ea-be2a09537768
+   */,
+  ActiveCustomersAndPlacedOrdersByLocation:
+    "12b824f3-c529-4f2b-97ea-be2a09537768"
+  /**
+   * Insight Title: Order Details
    * Insight ID: 1b9ce816-a4f9-4301-bdfd-d36c6a7a71b6
-   */ OrderDetails: "1b9ce816-a4f9-4301-bdfd-d36c6a7a71b6",
+   */,
+  OrderDetails: "1b9ce816-a4f9-4301-bdfd-d36c6a7a71b6"
   /**
-   * Insight Title: Total sales over time
+   * Insight Title: Product Performance by Orders & Returns
+   * Insight ID: 1c0441a9-f0b1-4683-890e-225cf130b8ec
+   */,
+  ProductPerformanceByOrdersAndReturns: "1c0441a9-f0b1-4683-890e-225cf130b8ec"
+  /**
+   * Insight Title: Bottom 10 Customers by Revenue
+   * Insight ID: 2168550d-8146-472e-9654-db2e08e65a9c
+   */,
+  Bottom10CustomersByRevenue: "2168550d-8146-472e-9654-db2e08e65a9c"
+  /**
+   * Insight Title: Profitability Overview
+   * Insight ID: 21976049-e470-4e72-a819-a40e8b158911
+   */,
+  ProfitabilityOverview: "21976049-e470-4e72-a819-a40e8b158911"
+  /**
+   * Insight Title: Discount Rate by Product Category
+   * Insight ID: 23669d9c-091c-4e0f-8412-34d7a8a2fa49
+   */,
+  DiscountRateByProductCategory: "23669d9c-091c-4e0f-8412-34d7a8a2fa49"
+  /**
+   * Insight Title: Sales to Net Revenue Breakdown
+   * Insight ID: 23a5b515-1b04-4940-bce5-3eeccfda0f83
+   */,
+  SalesToNetRevenueBreakdown: "23a5b515-1b04-4940-bce5-3eeccfda0f83"
+  /**
+   * Insight Title: Brand Performance Segments: Sales vs. Orders
+   * Insight ID: 2486eb48-0d07-46e6-bc41-0e5ff102dcc8
+   */,
+  BrandPerformanceSegmentsSalesVsOrders: "2486eb48-0d07-46e6-bc41-0e5ff102dcc8"
+  /**
+   * Insight Title: Total Sales Over Time
    * Insight ID: 25bdccd8-ef39-40a5-a224-6031d0ab470c
-   */ TotalSalesOverTime: "25bdccd8-ef39-40a5-a224-6031d0ab470c",
+   */,
+  TotalSalesOverTime: "25bdccd8-ef39-40a5-a224-6031d0ab470c"
   /**
-   * Insight Title: Net Sales vs Orders
+   * Insight Title: Product Ratings vs. Target
+   * Insight ID: 27408dd0-16f9-4069-8562-268f99b9d626
+   */,
+  ProductRatingsVsTarget: "27408dd0-16f9-4069-8562-268f99b9d626"
+  /**
+   * Insight Title: Cost vs. Selling Price Correlation in Details
+   * Insight ID: 2bd76854-1d97-4b19-b5cf-babce30f6b6b
+   */,
+  CostVsSellingPriceCorrelationInDetails:
+    "2bd76854-1d97-4b19-b5cf-babce30f6b6b"
+  /**
+   * Insight Title: Brand Performance: Net Sales vs. Orders
    * Insight ID: 2da13424-2a6b-4ed4-916c-9bbc002fdd1b
-   */ NetSalesVsOrders: "2da13424-2a6b-4ed4-916c-9bbc002fdd1b",
+   */,
+  BrandPerformanceNetSalesVsOrders: "2da13424-2a6b-4ed4-916c-9bbc002fdd1b"
   /**
    * Insight Title: Customers by Country and State
    * Insight ID: 2f12ace7-e626-47f1-953d-5ae957ca108e
-   */ CustomersByCountryAndState: "2f12ace7-e626-47f1-953d-5ae957ca108e",
+   */,
+  CustomersByCountryAndState: "2f12ace7-e626-47f1-953d-5ae957ca108e"
   /**
-   * Insight Title: Orders Paid
+   * Insight Title: Total Sales vs Inventory Turnover Rate Over Time
+   * Insight ID: 315e1b40-75cb-46e1-a59e-51b57829d786
+   */,
+  TotalSalesVsInventoryTurnoverRateOverTime:
+    "315e1b40-75cb-46e1-a59e-51b57829d786"
+  /**
+   * Insight Title: Sales Trend
+   * Insight ID: 34464ff6-a852-4585-bca8-c59514c23861
+   */,
+  SalesTrend: "34464ff6-a852-4585-bca8-c59514c23861"
+  /**
+   * Insight Title: Active Customers by Location
+   * Insight ID: 3895bb55-4ddf-4d7e-96ed-7178009fd34e
+   */,
+  ActiveCustomersByLocation: "3895bb55-4ddf-4d7e-96ed-7178009fd34e"
+  /**
+   * Insight Title: Orders Processed
    * Insight ID: 3ac5e106-b43e-4c87-9ef0-9315e02282bd
-   */ OrdersPaid: "3ac5e106-b43e-4c87-9ef0-9315e02282bd",
+   */,
+  OrdersProcessed: "3ac5e106-b43e-4c87-9ef0-9315e02282bd"
   /**
-   * Insight Title: Revenue Trend
+   * Insight Title: Revenue Trend Over Time
    * Insight ID: 3e16ebe3-7753-40c6-abc1-f549e7bf4d6c
-   */ RevenueTrend: "3e16ebe3-7753-40c6-abc1-f549e7bf4d6c",
+   */,
+  RevenueTrendOverTime: "3e16ebe3-7753-40c6-abc1-f549e7bf4d6c"
   /**
-   * Insight Title: Brands by Gross Profit and Avg Price of Product
+   * Insight Title: Brand Profitability by Price and Order Volume
    * Insight ID: 405034d6-ab9c-462a-a88e-3172598adc65
-   */ BrandsByGrossProfitAndAvgPriceOfProduct:
-    "405034d6-ab9c-462a-a88e-3172598adc65",
+   */,
+  BrandProfitabilityByPriceAndOrderVolume:
+    "405034d6-ab9c-462a-a88e-3172598adc65"
   /**
-   * Insight Title: Total sales breakdown
+   * Insight Title: Total Sales Breakdown
    * Insight ID: 41a8d4c3-1ab6-4bab-b531-5893912e9b93
-   */ TotalSalesBreakdown: "41a8d4c3-1ab6-4bab-b531-5893912e9b93",
+   */,
+  TotalSalesBreakdown: "41a8d4c3-1ab6-4bab-b531-5893912e9b93"
   /**
-   * Insight Title: Sales detail
+   * Insight Title: Sales Details
    * Insight ID: 469e8936-ca67-4987-8c70-0e35be24be4d
-   */ SalesDetail: "469e8936-ca67-4987-8c70-0e35be24be4d",
+   */,
+  SalesDetails: "469e8936-ca67-4987-8c70-0e35be24be4d"
   /**
-   * Insight Title: New vs Returning Trend
+   * Insight Title: Check
+   * Insight ID: 46ceabb7-06c1-4549-bbf7-af5afac7c6ed
+   */,
+  Check: "46ceabb7-06c1-4549-bbf7-af5afac7c6ed"
+  /**
+   * Insight Title: Nice overview
+   * Insight ID: 4782d807-fa6e-4c70-bc6b-000823ca9d60
+   */,
+  NiceOverview: "4782d807-fa6e-4c70-bc6b-000823ca9d60"
+  /**
+   * Insight Title: New vs. Returning Customers
    * Insight ID: 48000537-4586-4a1e-a9a5-8eda7f8151a8
-   */ NewVsReturningTrend: "48000537-4586-4a1e-a9a5-8eda7f8151a8",
+   */,
+  NewVsReturningCustomers: "48000537-4586-4a1e-a9a5-8eda7f8151a8"
   /**
-   * Insight Title: Return Customers
+   * Insight Title: Returning Customers
    * Insight ID: 4cea4177-37c5-4196-8aab-c6bf60dc1f22
-   */ ReturnCustomers_1: "4cea4177-37c5-4196-8aab-c6bf60dc1f22",
+   */,
+  ReturningCustomers_1: "4cea4177-37c5-4196-8aab-c6bf60dc1f22"
   /**
-   * Insight Title: Gross Profit Margin Detail
+   * Insight Title: Product-Level Profitability Breakdown
    * Insight ID: 5297352c-7fd3-4e7e-90ad-026e470f55bd
-   */ GrossProfitMarginDetail: "5297352c-7fd3-4e7e-90ad-026e470f55bd",
+   */,
+  ProductLevelProfitabilityBreakdown: "5297352c-7fd3-4e7e-90ad-026e470f55bd"
   /**
-   * Insight Title: Customer Detail
+   * Insight Title: Customer Orders and Sales Details
    * Insight ID: 543cadbb-10b4-4153-b810-52586df7aa0e
-   */ CustomerDetail: "543cadbb-10b4-4153-b810-52586df7aa0e",
+   */,
+  CustomerOrdersAndSalesDetails: "543cadbb-10b4-4153-b810-52586df7aa0e"
   /**
-   * Insight Title: Customers by State
+   * Insight Title: Active Customers by State
    * Insight ID: 544ee04b-7fcc-41a3-8323-852de0613815
-   */ CustomersByState: "544ee04b-7fcc-41a3-8323-852de0613815",
+   */,
+  ActiveCustomersByState: "544ee04b-7fcc-41a3-8323-852de0613815"
   /**
-   * Insight Title: Top 10 Sellers
+   * Insight Title: Overall Revenue Forecast
+   * Insight ID: 5afcc5f4-85a5-43cf-b4d4-d244c694b316
+   */,
+  OverallRevenueForecast: "5afcc5f4-85a5-43cf-b4d4-d244c694b316"
+  /**
+   * Insight Title: Top Sold Products
    * Insight ID: 603bbd58-ea50-4607-ad20-418bd95c06c8
-   */ Top10Sellers: "603bbd58-ea50-4607-ad20-418bd95c06c8",
+   */,
+  TopSoldProducts: "603bbd58-ea50-4607-ad20-418bd95c06c8"
   /**
-   * Insight Title: Simple map
-   * Insight ID: 605d079f-de09-4766-8af4-32ec139d6ca0
-   */ SimpleMap: "605d079f-de09-4766-8af4-32ec139d6ca0",
-  /**
-   * Insight Title: Top 10 Spenders
+   * Insight Title: Top 10 Customers by Revenue
    * Insight ID: 607e9724-37ed-44f6-9fb4-55676d58df6e
-   */ Top10Spenders: "607e9724-37ed-44f6-9fb4-55676d58df6e",
+   */,
+  Top10CustomersByRevenue: "607e9724-37ed-44f6-9fb4-55676d58df6e"
   /**
-   * Insight Title: Net sales over time
+   * Insight Title: Total Net Sales: Current vs. Last Year
    * Insight ID: 60dd3592-1322-4260-aaad-bd51cdcb1343
-   */ NetSalesOverTime: "60dd3592-1322-4260-aaad-bd51cdcb1343",
+   */,
+  TotalNetSalesCurrentVsLastYear: "60dd3592-1322-4260-aaad-bd51cdcb1343"
   /**
-   * Insight Title: Net Sales Breakdown
+   * Insight Title: Orders by Product Category and Brand
+   * Insight ID: 641cff4d-e46d-4fdb-8070-ffa5d6affa2f
+   */,
+  OrdersByProductCategoryAndBrand: "641cff4d-e46d-4fdb-8070-ffa5d6affa2f"
+  /**
+   * Insight Title: Total Sales Breakdown
    * Insight ID: 643699f3-f980-44f6-b618-4b3d3f3f560e
-   */ NetSalesBreakdown: "643699f3-f980-44f6-b618-4b3d3f3f560e",
+   */,
+  TotalSalesBreakdown_1: "643699f3-f980-44f6-b618-4b3d3f3f560e"
   /**
-   * Insight Title: Product detail
+   * Insight Title: Product Details by Product Categories & Brands
    * Insight ID: 65120fa4-2805-4f70-b576-01d138117cf4
-   */ ProductDetail: "65120fa4-2805-4f70-b576-01d138117cf4",
+   */,
+  ProductDetailsByProductCategoriesAndBrands:
+    "65120fa4-2805-4f70-b576-01d138117cf4"
   /**
-   * Insight Title: Sales Goal
+   * Insight Title: Net Sales Goal
    * Insight ID: 68ddf963-edce-4f88-a8d5-09bf3825b124
-   */ SalesGoal: "68ddf963-edce-4f88-a8d5-09bf3825b124",
+   */,
+  NetSalesGoal_1: "68ddf963-edce-4f88-a8d5-09bf3825b124"
   /**
-   * Insight Title: A
-   * Insight ID: 6bbdce33-542e-46d8-a011-a78cc05260ca
-   */ A_1: "6bbdce33-542e-46d8-a011-a78cc05260ca",
+   * Insight Title: Product Performance Trends
+   * Insight ID: 6a23110a-8d0d-4385-99aa-9b829f735314
+   */,
+  ProductPerformanceTrends: "6a23110a-8d0d-4385-99aa-9b829f735314"
+  /**
+   * Insight Title: Customer Lifetime Value (CLV) vs. Purchase Frequency
+   * Insight ID: 6c1de2b0-0165-4b3f-8b2b-9122f8f24393
+   */,
+  CustomerLifetimeValueCLVVsPurchaseFrequency:
+    "6c1de2b0-0165-4b3f-8b2b-9122f8f24393"
   /**
    * Insight Title: Net Sales by Product Category
    * Insight ID: 6e336114-d0b6-4287-acc4-be6e39e13e30
-   */ NetSalesByProductCategory: "6e336114-d0b6-4287-acc4-be6e39e13e30",
+   */,
+  NetSalesByProductCategory: "6e336114-d0b6-4287-acc4-be6e39e13e30"
   /**
    * Insight Title: Net Sales
    * Insight ID: 700d732d-67e1-4658-a6e0-c6b8edbb6d49
-   */ NetSales_1: "700d732d-67e1-4658-a6e0-c6b8edbb6d49",
+   */,
+  NetSales: "700d732d-67e1-4658-a6e0-c6b8edbb6d49"
   /**
-   * Insight Title: Top 10 Money Makers
+   * Insight Title: Order Volume Over Time
+   * Insight ID: 70d8d521-22ff-468f-924f-4a81a28227c1
+   */,
+  OrderVolumeOverTime: "70d8d521-22ff-468f-924f-4a81a28227c1"
+  /**
+   * Insight Title: Top Products by Gross Profit
    * Insight ID: 7b49dbdb-f9ab-41dd-9cb4-cd13627d67c3
-   */ Top10MoneyMakers: "7b49dbdb-f9ab-41dd-9cb4-cd13627d67c3",
+   */,
+  TopProductsByGrossProfit: "7b49dbdb-f9ab-41dd-9cb4-cd13627d67c3"
   /**
-   * Insight Title: Active Customers Breakdown
+   * Insight Title: Customers Breakdown
    * Insight ID: 7de6202d-2e52-4bed-9e80-6c3ce8cedaaa
-   */ ActiveCustomersBreakdown: "7de6202d-2e52-4bed-9e80-6c3ce8cedaaa",
+   */,
+  CustomersBreakdown: "7de6202d-2e52-4bed-9e80-6c3ce8cedaaa"
   /**
-   * Insight Title: Total Sales
-   * Insight ID: 86193049-01b6-438d-bd13-070b71459147
-   */ TotalSales_1: "86193049-01b6-438d-bd13-070b71459147",
+   * Insight Title: Customer Retention Rate
+   * Insight ID: 8a4f1df3-ca83-4e40-aad3-63b72bbfaa77
+   */,
+  CustomerRetentionRate_1: "8a4f1df3-ca83-4e40-aad3-63b72bbfaa77"
   /**
-   * Insight Title: XXXX
-   * Insight ID: 87c607e1-479a-42c4-af0c-689ebf00c52f
-   */ XXXX: "87c607e1-479a-42c4-af0c-689ebf00c52f",
+   * Insight Title: Bottom 10 Customers by Revenue (Details)
+   * Insight ID: 8db91a42-5cd3-4b95-a224-221ac17732d8
+   */,
+  Bottom10CustomersByRevenueDetails: "8db91a42-5cd3-4b95-a224-221ac17732d8"
   /**
-   * Insight Title: Top 10 Buyers
+   * Insight Title: Top 10 Purchasing Customers
    * Insight ID: 8e8f236e-1bb2-48b3-828e-48706c684629
-   */ Top10Buyers: "8e8f236e-1bb2-48b3-828e-48706c684629",
+   */,
+  Top10PurchasingCustomers: "8e8f236e-1bb2-48b3-828e-48706c684629"
+  /**
+   * Insight Title: Orders by Customer City
+   * Insight ID: 8eec84f3-88f7-42d7-9472-da144be7f2c4
+   */,
+  OrdersByCustomerCity: "8eec84f3-88f7-42d7-9472-da144be7f2c4"
   /**
    * Insight Title: Gross Profit Trend
    * Insight ID: 9570eab0-b451-48be-9e24-3c106fe898a2
-   */ GrossProfitTrend: "9570eab0-b451-48be-9e24-3c106fe898a2",
+   */,
+  GrossProfitTrend: "9570eab0-b451-48be-9e24-3c106fe898a2"
   /**
-   * Insight Title: Customers by State (on Overview)
-   * Insight ID: 996ccc2e-8f9e-4525-be61-2f3152ff8ce9
-   */ CustomersByStateOnOverview: "996ccc2e-8f9e-4525-be61-2f3152ff8ce9",
+   * Insight Title: Gross Profit by Product Category
+   * Insight ID: 9a254b09-91f2-4d36-bc40-bd51d9006a06
+   */,
+  GrossProfitByProductCategory: "9a254b09-91f2-4d36-bc40-bd51d9006a06"
   /**
-   * Insight Title: Total customers
-   * Insight ID: 9f2a657a-22e1-4791-8216-7a354bb8de5d
-   */ TotalCustomers_1: "9f2a657a-22e1-4791-8216-7a354bb8de5d",
+   * Insight Title: Top 10 Customers by Revenue (Details)
+   * Insight ID: 9bd57223-2ba5-404b-af62-d5b6a418629a
+   */,
+  Top10CustomersByRevenueDetails: "9bd57223-2ba5-404b-af62-d5b6a418629a"
   /**
-   * Insight Title: Total Sales Trend
+   * Insight Title: Price Elasticity by Product Brand
+   * Insight ID: 9cc379ca-2d55-4f82-aa5e-e256d7e3580d
+   */,
+  PriceElasticityByProductBrand: "9cc379ca-2d55-4f82-aa5e-e256d7e3580d"
+  /**
+   * Insight Title: Sales, Returns & Discounts Over Time
    * Insight ID: a178265c-53ba-4c15-8c1f-d7e168506c92
-   */ TotalSalesTrend: "a178265c-53ba-4c15-8c1f-d7e168506c92",
+   */,
+  SalesReturnsAndDiscountsOverTime: "a178265c-53ba-4c15-8c1f-d7e168506c92"
   /**
-   * Insight Title: Orders over time
+   * Insight Title: Orders by Status Over Time
    * Insight ID: a2b50fff-c7eb-444c-95e6-67037d2544d6
-   */ OrdersOverTime: "a2b50fff-c7eb-444c-95e6-67037d2544d6",
+   */,
+  OrdersByStatusOverTime: "a2b50fff-c7eb-444c-95e6-67037d2544d6"
   /**
-   * Insight Title: New Customers
+   * Insight Title: Active Customers
    * Insight ID: a347814a-a893-4354-915d-29699b92a6d7
-   */ NewCustomers_1: "a347814a-a893-4354-915d-29699b92a6d7",
+   */,
+  ActiveCustomers_1: "a347814a-a893-4354-915d-29699b92a6d7"
+  /**
+   * Insight Title: Orders by Product Category
+   * Insight ID: a63c7679-e577-4e40-9b17-0628eb6ed7e1
+   */,
+  OrdersByProductCategory: "a63c7679-e577-4e40-9b17-0628eb6ed7e1"
+  /**
+   * Insight Title: Top 10 States
+   * Insight ID: ac004949-ad4d-4678-b03a-2756e3d6a4e3
+   */,
+  Top10States: "ac004949-ad4d-4678-b03a-2756e3d6a4e3"
   /**
    * Insight Title: Total Sales
    * Insight ID: adf2b786-32bd-4864-b251-7e2cfe9a006f
-   */ TotalSales_2: "adf2b786-32bd-4864-b251-7e2cfe9a006f",
+   */,
+  TotalSales_1: "adf2b786-32bd-4864-b251-7e2cfe9a006f"
   /**
-   * Insight Title: Order breakdown
+   * Insight Title: Order Value by Category and Customer Rating
+   * Insight ID: b0c48f40-b8e0-4434-9258-bbd261d6bd34
+   */,
+  OrderValueByCategoryAndCustomerRating: "b0c48f40-b8e0-4434-9258-bbd261d6bd34"
+  /**
+   * Insight Title: Order Status Breakdown
    * Insight ID: b4497110-8d8a-4ab3-9cd5-471b60d8e561
-   */ OrderBreakdown: "b4497110-8d8a-4ab3-9cd5-471b60d8e561",
+   */,
+  OrderStatusBreakdown: "b4497110-8d8a-4ab3-9cd5-471b60d8e561"
   /**
    * Insight Title: Gross Profit
    * Insight ID: b666412b-3c13-4e80-9b3f-7787558aa3ce
-   */ GrossProfit_1: "b666412b-3c13-4e80-9b3f-7787558aa3ce",
+   */,
+  GrossProfit_1: "b666412b-3c13-4e80-9b3f-7787558aa3ce"
   /**
-   * Insight Title: Coordinates
-   * Insight ID: bad8fd69-a1ce-48b0-80d7-04a2babd6f23
-   */ Coordinates: "bad8fd69-a1ce-48b0-80d7-04a2babd6f23",
+   * Insight Title: Order Fulfillment Funnel
+   * Insight ID: b742a152-cf65-436b-bcdf-4e56ec594841
+   */,
+  OrderFulfillmentFunnel: "b742a152-cf65-436b-bcdf-4e56ec594841"
   /**
-   * Insight Title: Active Customers
+   * Insight Title: Completed vs. Canceled Orders Trend
+   * Insight ID: bb5c2581-2da9-49b8-b430-b9c2371c79ff
+   */,
+  CompletedVsCanceledOrdersTrend: "bb5c2581-2da9-49b8-b430-b9c2371c79ff"
+  /**
+   * Insight Title: Best-selling Product Brands
+   * Insight ID: c4acd66e-db92-4e9b-8146-be79fcd50869
+   */,
+  BestSellingProductBrands: "c4acd66e-db92-4e9b-8146-be79fcd50869"
+  /**
+   * Insight Title: Daily profile
+   * Insight ID: cbe98a17-9065-4b85-85de-903ed044abc5
+   */,
+  DailyProfile: "cbe98a17-9065-4b85-85de-903ed044abc5"
+  /**
+   * Insight Title: Customer Activity by Hour
+   * Insight ID: cc858402-0650-444e-947a-1e8dfc888435
+   */,
+  CustomerActivityByHour: "cc858402-0650-444e-947a-1e8dfc888435"
+  /**
+   * Insight Title: Average Order Volume per Customer
    * Insight ID: dc8575f5-27e5-44be-a2dc-23d54b7777e7
-   */ ActiveCustomers_1: "dc8575f5-27e5-44be-a2dc-23d54b7777e7",
+   */,
+  AverageOrderVolumePerCustomer: "dc8575f5-27e5-44be-a2dc-23d54b7777e7"
   /**
-   * Insight Title: Net Sales by Product Category (v2)
+   * Insight Title: Revenue Trend Details
+   * Insight ID: ddc4be59-1ea8-4b9d-86a2-6f389ae217b9
+   */,
+  RevenueTrendDetails: "ddc4be59-1ea8-4b9d-86a2-6f389ae217b9"
+  /**
+   * Insight Title: Net Sales by Product Category
    * Insight ID: e32644ad-1921-4b89-a7d2-79f31826e5cf
-   */ NetSalesByProductCategoryV2: "e32644ad-1921-4b89-a7d2-79f31826e5cf",
+   */,
+  NetSalesByProductCategory_1: "e32644ad-1921-4b89-a7d2-79f31826e5cf"
   /**
-   * Insight Title: Activity by Hour
+   * Insight Title: Net Sales Share by Top 5 City
+   * Insight ID: ea6f316e-2d64-489f-8b37-2f031e8bbbbf
+   */,
+  NetSalesShareByTop5City: "ea6f316e-2d64-489f-8b37-2f031e8bbbbf"
+  /**
+   * Insight Title: Sales Conversion Rate (%)
+   * Insight ID: ec9b9afa-96f7-439a-8ce2-94735173b98a
+   */,
+  SalesConversionRatePercent: "ec9b9afa-96f7-439a-8ce2-94735173b98a"
+  /**
+   * Insight Title: Placed Orders by Hour
    * Insight ID: f1027458-1123-4f4d-af20-0e21b1d5e009
-   */ ActivityByHour: "f1027458-1123-4f4d-af20-0e21b1d5e009",
+   */,
+  PlacedOrdersByHour: "f1027458-1123-4f4d-af20-0e21b1d5e009"
+  /**
+   * Insight Title: Net Sales Breakdown
+   * Insight ID: f52cdf0e-dd0a-40cf-b1dd-e7c25dad2b63
+   */,
+  NetSalesBreakdown: "f52cdf0e-dd0a-40cf-b1dd-e7c25dad2b63"
+  /**
+   * Insight Title: Product Pricing Breakdown
+   * Insight ID: fd4fb308-50d6-4a61-accc-e0f17039d144
+   */,
+  ProductPricingBreakdown: "fd4fb308-50d6-4a61-accc-e0f17039d144",
 };
 export const Dashboards = {
   /**
-   * Dashboard Title: 1. Location
-   * Dashboard ID: 092929af-375a-4e9c-964f-2add8cdbd259
+   * Dashboard Title: ssaddsadsa
+   * Dashboard ID: 089d2c78-38eb-4353-915a-5cf299fb1fb8
    */
-  _1Location: "092929af-375a-4e9c-964f-2add8cdbd259",
+  Ssaddsadsa: "089d2c78-38eb-4353-915a-5cf299fb1fb8"
+  /**
+   * Dashboard Title: 1. Overview
+   * Dashboard ID: 092929af-375a-4e9c-964f-2add8cdbd259
+   */,
+  _1Overview: "092929af-375a-4e9c-964f-2add8cdbd259"
+  /**
+   * Dashboard Title: new new new
+   * Dashboard ID: 11f99601-f3a6-469e-9e90-000097fa96d0
+   */,
+  NewNewNew: "11f99601-f3a6-469e-9e90-000097fa96d0"
   /**
    * Dashboard Title: 3. Customers
-   * Dashboard ID: 370ec88c-2235-4e65-bb7c-5318280069a1
-   */ _3Customers: "370ec88c-2235-4e65-bb7c-5318280069a1",
+   * Dashboard ID: 12fa0ef2-676b-41fb-bb91-9e1936097461
+   */,
+  _3Customers: "12fa0ef2-676b-41fb-bb91-9e1936097461"
   /**
-   * Dashboard Title: A
-   * Dashboard ID: 566becea-1b30-4313-a8b4-667ba42a215f
-   */ A_2: "566becea-1b30-4313-a8b4-667ba42a215f",
+   * Dashboard Title: qqqqqqqqq
+   * Dashboard ID: 5acc234e-b76f-4da1-ae73-8ba75913ad63
+   */,
+  Qqqqqqqqq: "5acc234e-b76f-4da1-ae73-8ba75913ad63"
   /**
-   * Dashboard Title: 2. Sales
+   * Dashboard Title: 123
+   * Dashboard ID: 6761e7a3-cb95-493c-940f-74faf65d4cab
+   */,
+  _123: "6761e7a3-cb95-493c-940f-74faf65d4cab"
+  /**
+   * Dashboard Title: asdsa
+   * Dashboard ID: 891a3a95-6ad3-4e37-a8b1-34874cd70485
+   */,
+  Asdsa: "891a3a95-6ad3-4e37-a8b1-34874cd70485"
+  /**
+   * Dashboard Title: new focus
+   * Dashboard ID: 8c724b4d-9890-4064-a4d6-86e92b02b524
+   */,
+  NewFocus: "8c724b4d-9890-4064-a4d6-86e92b02b524"
+  /**
+   * Dashboard Title: nnnnnnnnnnnnnnnnnnnnn
+   * Dashboard ID: aa560dde-9b17-44fd-8001-616d3e5d2783
+   */,
+  Nnnnnnnnnnnnnnnnnnnnn: "aa560dde-9b17-44fd-8001-616d3e5d2783"
+  /**
+   * Dashboard Title: qqqwqwqew
+   * Dashboard ID: ad097e5b-a4f5-479b-90e2-e12ebfbd5d7b
+   */,
+  Qqqwqwqew: "ad097e5b-a4f5-479b-90e2-e12ebfbd5d7b"
+  /**
+   * Dashboard Title: new board created
+   * Dashboard ID: ae927d9c-e27b-4151-850a-b037a71aae96
+   */,
+  NewBoardCreated: "ae927d9c-e27b-4151-850a-b037a71aae96"
+  /**
+   * Dashboard Title: 2. Sales.
    * Dashboard ID: bf439696-d6c6-4d41-a102-dd98e2f3da35
-   */ _2Sales: "bf439696-d6c6-4d41-a102-dd98e2f3da35",
+   */,
+  _2Sales: "bf439696-d6c6-4d41-a102-dd98e2f3da35"
   /**
    * Dashboard Title: 4. Products
    * Dashboard ID: c1d67cd4-94ad-40aa-91a5-cdf4143f778a
-   */ _4Products: "c1d67cd4-94ad-40aa-91a5-cdf4143f778a",
+   */,
+  _4Products: "c1d67cd4-94ad-40aa-91a5-cdf4143f778a"
   /**
-   * Dashboard Title: Untitled
-   * Dashboard ID: ed61f1e3-6c32-42f9-be10-be553eb1e695
-   */ Untitled: "ed61f1e3-6c32-42f9-be10-be553eb1e695",
+   * Dashboard Title: asdfdsjfkh
+   * Dashboard ID: ec161a0d-e861-42d7-886b-f2ecd628cbf7
+   */,
+  Asdfdsjfkh: "ec161a0d-e861-42d7-886b-f2ecd628cbf7",
 };

@@ -1,10 +1,12 @@
-# GoodData.UI SDK - Map Example - {EXAMPLE-TITLE}
+# GoodData.UI SDK - Map Example
 
-{EXAMPLE-DESCRIPTION}
+Showcasing basic Geo Charts
 
 You can run this example in [CodeSandbox]({CODESANDBOX-PATH}). 
 
 [![{EXAMPLE-TITLE}](./.example/preview.png)]({CODESANDBOX-PATH})
+
+consult with https://www.gooddata.com/docs/gooddata-ui/latest/references/visual_components/geo_pushpin_chart/
 
 ## Run example locally
 
@@ -12,7 +14,7 @@ You can run this example in [CodeSandbox]({CODESANDBOX-PATH}).
 1) navigate to example directory
 2) ```npm install```
 3) ```npm start```
-
+process
 
 ## License
 

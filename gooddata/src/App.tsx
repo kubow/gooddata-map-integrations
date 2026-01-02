@@ -9,7 +9,7 @@ const workspaceId = WORKSPACE_ID;
 const dashboardId = DASHBOARD_ID;
 const visualId = VISUAL_ID;
 console.log(
-  "..displaying dashboard: " + dashboardId + " \n... visual: " + visualId
+  "..default dashboard: " + dashboardId + " \n... visual: " + visualId
 );
 
 export const App: React.FC = () => {

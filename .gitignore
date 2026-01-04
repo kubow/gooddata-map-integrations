@@ -131,4 +131,5 @@ dist
 
 
 # temporary archives cutoff
-.zip
+*.zip
+.directory

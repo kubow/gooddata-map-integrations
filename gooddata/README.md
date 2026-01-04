@@ -1,23 +1,41 @@
-# GoodData.UI SDK - Map Example
+# GoodData Geo Pushpin Chart
 
-Showcasing basic Geo Charts
+Native GoodData map component with built-in geo visualization.
 
-You can run this example in [CodeSandbox]({CODESANDBOX-PATH}). 
+## Screenshot
 
-[![{EXAMPLE-TITLE}](./.example/preview.png)]({CODESANDBOX-PATH})
+![GoodData Geo Map](./screenshot.png)
+*Add screenshot here*
 
-consult with https://www.gooddata.com/docs/gooddata-ui/latest/references/visual_components/geo_pushpin_chart/
+## Key Dependencies
 
-## Run example locally
+```json
+{
+  "@gooddata/sdk-ui-geo": "^11.x",
+  "@gooddata/sdk-ui": "^11.x",
+  "@gooddata/sdk-backend-tiger": "^11.x",
+  "@gooddata/sdk-model": "^11.x",
+  "react": "^18.3.x",
+  "typescript": "^5.x"
+}
+```
 
+## Features
 
-1) navigate to example directory
-2) ```npm install```
-3) ```npm start```
-process
+- Native GoodData `GeoPushpinChart` component
+- No external API keys required
+- Integrated with GoodData's semantic layer
+- Built-in clustering and tooltips
 
-## License
+## Run Locally
 
-(C) 2017-2025 GoodData Corporation
+```bash
+cd gooddata
+npm install
+npm start
+```
 
-This repository is under the GoodData commercial license available in the [LICENSE](LICENSE) file because it contains a commercial package, HighCharts.
+## Documentation
+
+[GoodData Geo Pushpin Chart](https://www.gooddata.com/docs/gooddata-ui/latest/references/visual_components/geo_pushpin_chart/)
+

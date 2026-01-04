@@ -1,19 +1,52 @@
-# GoodData.UI embedded in MapTiler service
+# MapTiler Map Integration
 
-- [MapTiler SDK Examples | JavaScript maps SDK | MapLibre GL JS | MapTiler](https://docs.maptiler.com/sdk-js/examples/)
-- [React JS with MapTiler maps | MapTiler](https://docs.maptiler.com/react)
+MapLibre-based service with multiple visualization modes integrated with GoodData.
 
+## Screenshot
 
-[![{EXAMPLE-TITLE}](./.example/preview.png)]({CODESANDBOX-PATH})
+![MapTiler Map](./screenshot.png)
+*Add screenshot here*
 
-## Run example locally
+## Key Dependencies
 
-1) explore code in `./src/example/MapTiler.tsx`
-2) ```npm install```
-3) ```npm start```
+```json
+{
+  "@gooddata/sdk-ui": "^11.x",
+  "@gooddata/sdk-backend-tiger": "^11.x",
+  "@gooddata/sdk-model": "^11.x",
+  "@maptiler/sdk": "^2.x",
+  "react": "^18.3.x",
+  "typescript": "^5.x"
+}
+```
 
-## License
+## Features
 
-(C) 2017-2025 GoodData Corporation
+- Multiple visualization modes: markers and heatmap
+- Various map styles (streets, outdoor, satellite, etc.)
+- Interactive markers with popups
+- Heatmap density visualization
+- Advanced features: polygons, clustering, 3D terrain
 
-This repository is under the GoodData commercial license available in the [LICENSE](LICENSE) file because it contains a commercial package, HighCharts.
+## Setup
+
+Requires MapTiler API key in `.env`:
+```env
+VITE_MAPTILER_TOKEN=your_maptiler_token
+```
+
+Get your free API key at [MapTiler Cloud](https://cloud.maptiler.com/)
+
+## Run Locally
+
+```bash
+cd maptiler
+npm install
+npm start
+```
+
+## Documentation
+
+- [MapTiler SDK Documentation](https://docs.maptiler.com/sdk-js/)
+- [MapTiler Examples](https://docs.maptiler.com/sdk-js/examples/)
+

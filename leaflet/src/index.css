@@ -1,0 +1,339 @@
+/* Import Leaflet CSS - Required for proper map rendering */
+@import "leaflet/dist/leaflet.css";
+
+:root {
+    --max-width: 1000px;
+    --white: #fff;
+    --light-grey: #ebeff4;
+    --dark-grey: #464e56;
+    --code-grey: #f5f8fa;
+    --brand: #ed26b7;
+    --brand-hover: #cf119b;
+    --brand-blue: #2637ef;
+    --main-bg-color: brown;
+    --success-green: #22c55e;
+    --map-border: #ddd;
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--dark-grey);
+    font-family: avenir, "Helvetica Neue", arial, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: var(--white) no-repeat top right url(assets/topology-bg.svg);
+    background-size: cover;
+}
+
+.app {
+    width: 100%;
+    max-width: calc(var(--max-width) + 3em);
+    margin: 0 auto;
+    padding: 0 1.5em 2em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.app a,
+.app a:active,
+.app a:visited {
+    transition: color 0.2s;
+    color: var(--brand);
+    text-decoration: none;
+}
+
+.app a:hover {
+    color: var(--brand-hover);
+    text-decoration: underline;
+}
+
+.app h1 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.app h2 {
+    font-size: 1.4em;
+    margin-top: 1.5em;
+    color: var(--dark-grey);
+}
+
+.app h3 {
+    font-size: 1.1em;
+    margin-top: 1.5em;
+    color: var(--dark-grey);
+}
+
+.app p {
+    text-align: center;
+    margin-top: 1em;
+    line-height: 1.6;
+}
+
+.app :not(pre) code {
+    font-family: "Fira Code", "Monaco", "Consolas", monospace;
+    font-size: inherit;
+    color: var(--brand-blue);
+    background-color: rgba(38, 55, 239, 0.1);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.app pre {
+    background: var(--code-grey);
+    border: 1px solid var(--light-grey);
+    padding: 1em;
+    overflow: auto;
+    margin-top: 1em;
+    border-radius: 8px;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+.app pre code {
+    font-family: "Fira Code", "Monaco", "Consolas", monospace;
+}
+
+.app figure {
+    border: 1px solid var(--light-grey);
+    height: calc(var(--max-width) * 0.6);
+    margin: 2em 0 0;
+    padding: 0 1em;
+    background: var(--white);
+    overflow: auto;
+}
+
+.app footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--light-grey);
+    padding: 1em 0 1em;
+    margin-top: 2em;
+}
+
+/* Leaflet Example Styles */
+.leaflet-example {
+    width: 100%;
+}
+
+.example-section {
+    margin-top: 2em;
+}
+
+.example-section p {
+    text-align: left;
+    max-width: 100%;
+}
+
+/* Leaflet Container Wrapper */
+.leaflet-container-wrapper {
+    width: 100%;
+    height: 500px;
+    margin: 1.5em 0;
+    border: 2px solid var(--map-border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure Leaflet container fills wrapper */
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Custom Popup Styles */
+.marker-popup {
+    padding: 0.5em;
+    min-width: 150px;
+}
+
+.marker-popup strong {
+    font-size: 1.1em;
+    color: var(--dark-grey);
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.marker-popup p {
+    margin: 0.3em 0;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.marker-popup .value {
+    font-weight: bold;
+    color: var(--brand-blue);
+}
+
+.marker-popup .coords {
+    color: #888;
+    font-size: 0.8em;
+}
+
+.marker-popup .nearby {
+    color: #666;
+    font-size: 0.85em;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid #eee;
+}
+
+/* No Data Message */
+.no-data-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 2em;
+    text-align: center;
+}
+
+.no-data-message h3 {
+    color: var(--dark-grey);
+    margin-bottom: 0.5em;
+}
+
+.no-data-message p {
+    color: #666;
+    max-width: 400px;
+}
+
+/* Loading State */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: var(--white);
+    border: 2px solid var(--light-grey);
+    border-radius: 12px;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid var(--light-grey);
+    border-top-color: var(--brand);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Error State */
+.error-container {
+    padding: 2em;
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.error-container h3 {
+    color: #dc2626;
+    margin-top: 0;
+}
+
+.error-container p {
+    color: #7f1d1d;
+}
+
+/* Code Example Section */
+.code-example {
+    margin-top: 2em;
+    background: var(--white);
+    padding: 1.5em;
+    border-radius: 12px;
+    border: 1px solid var(--light-grey);
+}
+
+.code-example h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+/* Demo Section */
+.demo-section {
+    margin-bottom: 1em;
+}
+
+.demo-note {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    padding: 1em 1.5em;
+    border-radius: 8px;
+    border-left: 4px solid #f59e0b;
+    text-align: left !important;
+    margin-top: 1em;
+}
+
+.demo-note strong {
+    color: #92400e;
+}
+
+/* Responsive Design */
+@media (min-width: 600px) {
+    .app h1 {
+        font-size: 3em;
+        margin-top: 1em;
+    }
+
+    .leaflet-container-wrapper {
+        height: 550px;
+    }
+}
+
+@media (min-width: 900px) {
+    .leaflet-container-wrapper {
+        height: 600px;
+    }
+}
+
+/* Override Leaflet default styles for better integration */
+.leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-popup-content {
+    margin: 10px 12px;
+}
+
+.leaflet-control-zoom {
+    border: none !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15) !important;
+}
+
+.leaflet-control-zoom a {
+    background-color: var(--white) !important;
+    color: var(--dark-grey) !important;
+    border: none !important;
+}
+
+.leaflet-control-zoom a:hover {
+    background-color: var(--light-grey) !important;
+}
+
+.leaflet-control-attribution {
+    background: rgba(255, 255, 255, 0.8) !important;
+    font-size: 10px;
+}

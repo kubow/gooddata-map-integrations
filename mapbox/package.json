@@ -1,0 +1,58 @@
+{
+    "name": "gooddata-sdk-mapbox",
+    "version": "0.0.1",
+    "title": "GoodData integration with MapBox service",
+    "description": "GoodData interactive example embedded in MapBox",
+    "author": "GoodData Corporation",
+    "private": false,
+    "license": "../LICENSE",
+    "type": "module",
+    "gooddata": {
+        "backend": "tiger",
+        "catalogOutput": "src/catalog.ts"
+    },
+    "scripts": {
+        "clean": "rm -rf esm dist *.log",
+        "build": "tsc -p tsconfig.json",
+        "build-example": "vite build",
+        "build-example-ci": "vite build -l error",
+        "start": "vite serve",
+        "preview": "vite preview",
+        "refresh-md": "gdc-catalog-export && npm run prettier-write",
+        "update-version": "node ./scripts/updateWorkspaceVersion.mjs",
+        "prettier-check": "prettier --check '{src,test}/**/*.{ts,tsx,json,scss,md,yaml,html}'",
+        "prettier-write": "prettier --write '{src,test}/**/*.{ts,tsx,json,scss,md,yaml,html}'",
+        "validate": "npm run prettier-check",
+        "validate-ci": "npm run build-example-ci && npm run prettier-check"
+    },
+    "exampleDependencies": [],
+    "dependencies": {
+        "@gooddata/sdk-backend-base": "^11.14.0",
+        "@gooddata/sdk-backend-spi": "^11.14.0",
+        "@gooddata/sdk-backend-tiger": "^11.14.0",
+        "@gooddata/sdk-model": "^11.14.0",
+        "@gooddata/sdk-ui": "^11.14.0",
+        "@gooddata/sdk-ui-charts": "^11.14.0",
+        "@gooddata/sdk-ui-dashboard": "^11.14.0",
+        "@gooddata/sdk-ui-ext": "^11.14.0",
+        "@gooddata/sdk-ui-filters": "^11.14.0",
+        "@gooddata/sdk-ui-geo": "^11.14.0",
+        "@gooddata/sdk-ui-kit": "^11.14.0",
+        "@gooddata/sdk-ui-pivot": "^11.14.0",
+        "mapbox-gl": "^3.8.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "tslib": "^2.5.0"
+    },
+    "devDependencies": {
+        "@gooddata/catalog-export": "^11.14.0",
+        "@types/react": "^18.3.27",
+        "@types/react-dom": "^18.3.7",
+        "@vitejs/plugin-react-swc": "~3.5.0",
+        "prettier": "~2.5.1",
+        "process": "^0.11.10",
+        "typescript": "5.3.3",
+        "vite": "^5.4.21",
+        "vite-plugin-html": "~3.2.0"
+    }
+}

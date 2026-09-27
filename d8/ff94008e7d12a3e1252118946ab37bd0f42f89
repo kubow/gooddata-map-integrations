@@ -1,0 +1,14 @@
+.gitignore
+  h_0907ec034f4a17 136-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d8ff94008e7d12a3e1252118946ab37bd0f42f89",
+  "prompts": {},
+  "humans": {
+    "h_0907ec034f4a17": {
+      "author": "kubow <kube.kubow@gmail.com>"
+    }
+  }
+}

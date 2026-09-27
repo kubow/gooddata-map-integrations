@@ -1,5 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo, useRef } from "react";
 import mapboxgl from "mapbox-gl";
+
+const toMetricValue = (rawValue: unknown): number | undefined => {
+  if (rawValue == null) return undefined;
+  const value = Number(rawValue);
+  return Number.isFinite(value) ? value : undefined;
+};
 
 // inspiration https://github.com/mapbox/mapbox-react-examples
 
@@ -8,12 +14,13 @@ import mapboxgl from "mapbox-gl";
 mapboxgl.accessToken = (import.meta as any).env.VITE_MAPBOX_TOKEN;
 
 const MapBoxCustom = ({ result }: { result: any }) => {
+  const containerRef = useRef<HTMLDivElement>(null);
   const slices = result.data().slices().toArray();
 
   // Extract map points from slices
   // Slice titles contain: [cityName, latitude, longitude] from the 3 display forms
   // Data points contain the measure value (e.g., TotalCustomers)
-  const customPoints = slices.map((slice: any) => {
+  const customPoints = useMemo(() => slices.map((slice: any) => {
     const titles = slice.sliceTitles();
     const dataPoints = slice.dataPoints();
 
@@ -21,11 +28,11 @@ const MapBoxCustom = ({ result }: { result: any }) => {
     const name = titles[0] || "Unknown";
 
     // Get lat/lng from the geo display forms (indices 1 and 2)
-    const lat = parseFloat(titles[1]) || 0;
-    const lng = parseFloat(titles[2]) || 0;
+    const lat = Number(titles[1]);
+    const lng = Number(titles[2]);
 
     // Get the measure value (e.g., customer count) for sizing/tooltips
-    const value = dataPoints[0]?.rawValue || 0;
+    const value = toMetricValue(dataPoints[0]?.rawValue);
 
     return {
       name,
@@ -34,15 +41,18 @@ const MapBoxCustom = ({ result }: { result: any }) => {
       value,
       lngLat: [lng, lat] as [number, number], // MapBox expects [lng, lat] order
     };
-  }).filter((point: any) => point.lat !== 0 && point.lng !== 0); // Filter out invalid coords
+  }).filter((point: any) =>
+    Number.isFinite(point.lat) && Number.isFinite(point.lng) &&
+    point.lat >= -90 && point.lat <= 90 && point.lng >= -180 && point.lng <= 180
+  ), [slices]);
 
   console.log("Map points:", customPoints);
 
   useEffect(() => {
-    if (!customPoints.length) return;
+    if (!customPoints.length || !containerRef.current) return;
 
     const map = new mapboxgl.Map({
-      container: "mapbox-container", // Replace with your map container ID
+      container: containerRef.current,
       style: "mapbox://styles/mapbox/streets-v11",
       center: [-74.0, 40.75], // Replace with your map center
       zoom: 3, // Replace with your map zoom
@@ -143,7 +153,7 @@ const MapBoxCustom = ({ result }: { result: any }) => {
         map.remove();
       }
     };
-  }, []); // Run only once when the component mounts
+  }, [customPoints]);
 
   // Function to calculate distance between two points using Haversine formula
   const calculateDistance = (coord1, coord2) => {
@@ -185,7 +195,7 @@ const MapBoxCustom = ({ result }: { result: any }) => {
   };
 
   return (
-    <div id="mapbox-container" style={{ width: "100%", height: "50vh" }} />
+    <div ref={containerRef} style={{ width: "100%", height: "50vh" }} />
   );
 };
 

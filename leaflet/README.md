@@ -5,7 +5,6 @@ Lightweight, mobile-friendly open-source mapping library integrated with GoodDat
 ## Screenshot
 
 ![Leaflet Map](./screenshot.png)
-*Add screenshot here*
 
 ## Key Dependencies
 
@@ -15,18 +14,27 @@ Lightweight, mobile-friendly open-source mapping library integrated with GoodDat
   "@gooddata/sdk-backend-tiger": "^11.x",
   "@gooddata/sdk-model": "^11.x",
   "leaflet": "^1.9.x",
-  "react-leaflet": "^4.2.x",
-  "react": "^18.3.x",
-  "typescript": "^5.x"
+  "react-leaflet": "^5.x",
+  "world-atlas": "^2.x",
+  "topojson-client": "^3.x",
+  "i18n-iso-countries": "^7.x",
+  "react": "^19.x",
+  "typescript": "^7.x"
 }
 ```
 
 ## Features
 
+- A switcher across the three views `@gooddata/sdk-ui-geo` offers natively (pushpin, area,
+  combined), rebuilt on Leaflet's own primitives since GoodData has no Leaflet chart renderer:
+  - **Pushpin markers** (`CircleMarker`) - sized/colored by a metric, or colored categorically
+    via a segment attribute
+  - **Area choropleth** (`GeoJSON`) - shades country-level `GDC.geo.area` regions using
+    bundled `world-atlas` boundaries joined by ISO 3166-1 alpha-2 code
+  - **Combined** - both layers on one map
+- Every workspace attribute/metric/fact usable in the pickers is discovered dynamically from
+  the catalog - nothing is hardcoded to a specific data model
 - Free OpenStreetMap tiles (no API key needed)
-- Interactive markers and popups
-- Dynamic coloring based on data values
-- React-Leaflet bindings
 
 ## Run Locally
 

@@ -27,7 +27,10 @@
     },
     "exampleDependencies": [
         "leaflet",
-        "react-leaflet"
+        "react-leaflet",
+        "world-atlas",
+        "topojson-client",
+        "i18n-iso-countries"
     ],
     "dependencies": {
         "@gooddata/sdk-backend-base": "^11.59.0",
@@ -42,17 +45,22 @@
         "@gooddata/sdk-ui-geo": "^11.59.0",
         "@gooddata/sdk-ui-kit": "^11.59.0",
         "@gooddata/sdk-ui-pivot": "^11.59.0",
+        "i18n-iso-countries": "^7.14.0",
         "leaflet": "^1.9.4",
         "react": "^19.3.0",
         "react-dom": "^19.3.0",
         "react-leaflet": "^5.0.0",
-        "tslib": "^2.5.0"
+        "topojson-client": "^3.1.0",
+        "tslib": "^2.5.0",
+        "world-atlas": "^2.0.2"
     },
     "devDependencies": {
         "@gooddata/catalog-export": "^11.59.0",
-        "@types/leaflet": "^1.9.8",
+        "@types/geojson": "^7946.0.16",
+        "@types/leaflet": "^1.9.22",
         "@types/react": "^19.2.6",
         "@types/react-dom": "^19.2.3",
+        "@types/topojson-client": "^3.1.5",
         "@vitejs/plugin-react-swc": "^3.11.0",
         "prettier": "~2.5.1",
         "process": "^0.11.10",

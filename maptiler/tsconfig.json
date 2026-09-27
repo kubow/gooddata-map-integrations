@@ -2,13 +2,15 @@
     "exclude": ["**/tests", "**/test"],
     "include": ["src/**/*", "src/**/*.json"],
     "compilerOptions": {
-        "baseUrl": ".",
         "rootDir": "./src",
         "outDir": "./esm",
         "target": "ES2022",
         "lib": ["ES2022", "DOM"],
-        "module": "Node16",
-        "moduleResolution": "Node16",
+        "module": "ESNext",
+        // @maptiler/sdk ships a `.d.ts` with an extension-less relative re-export, which strict
+        // Node16/NodeNext resolution rejects (and hides all of its named exports as a result).
+        // "bundler" mode matches how Vite actually resolves these modules at build time.
+        "moduleResolution": "bundler",
         "jsx": "react",
         "importHelpers": true,
         "incremental": false,

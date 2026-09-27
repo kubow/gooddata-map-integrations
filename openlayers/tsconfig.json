@@ -2,13 +2,15 @@
     "exclude": ["**/tests", "**/test"],
     "include": ["src/**/*", "src/**/*.json"],
     "compilerOptions": {
-        "baseUrl": ".",
         "rootDir": "./src",
         "outDir": "./esm",
         "target": "ES2022",
         "lib": ["ES2022", "DOM"],
-        "module": "Node16",
-        "moduleResolution": "Node16",
+        "module": "ESNext",
+        // `ol` ships extension-less subpath imports (e.g. "ol/Map") with no package.json
+        // "exports" map, which strict Node16/NodeNext resolution rejects. "bundler" mode matches
+        // how Vite actually resolves these modules at build time.
+        "moduleResolution": "bundler",
         "jsx": "react",
         "importHelpers": true,
         "incremental": false,

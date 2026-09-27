@@ -5,7 +5,6 @@ Native GoodData map component with built-in geo visualization.
 ## Screenshot
 
 ![GoodData Geo Map](./screenshot.png)
-*Add screenshot here*
 
 ## Key Dependencies
 

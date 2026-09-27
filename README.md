@@ -21,7 +21,6 @@ Examples of integrating GoodData analytics with popular mapping libraries using 
 | [OpenLayers](./openlayers/README.md) | No               | ✅                | Uses free OpenStreetMap<br>Powerful open-source library with advanced features.                                |
 | [MapBox](./mapbox/README.md)         | Yes              | 50k loads/month  | [MapBox Pricing](https://www.mapbox.com/pricing)<br>Professional mapping service with beautiful styles         |
 | [MapTiler](./maptiler/README.md)     | Yes              | 100k tiles/month | [MapTiler Pricing](https://www.maptiler.com/cloud/pricing)<br>multiple visualization modes (based on MapLibre) |
-| [MapLibre](./maplibre/README.md)     | No               | ✅                | Uses free OpenStreetMap                                                                                        |
 
 ## Quick Start
 
@@ -95,7 +94,6 @@ gooddata-map-integrations/
 ├── gooddata/                 # GoodData native component
 ├── leaflet/                  # Leaflet integration
 ├── mapbox/                   # MapBox integration
-├── maplibre/                 # MapLibre GL JS integration
 ├── maptiler/                 # MapTiler integration
 └── openlayers/               # OpenLayers integration
 ```

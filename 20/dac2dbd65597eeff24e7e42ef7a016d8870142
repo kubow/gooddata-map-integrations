@@ -1,0 +1,75 @@
+maplibre/tsconfig.json
+  s_81d31d0a9cea8a::t_78de41177fa26d 17
+gooddata/tsconfig.json
+  s_81d31d0a9cea8a::t_78de41177fa26d 17
+gooddata/package.json
+  s_81d31d0a9cea8a::t_c459017fb6a2bd 54
+  s_81d31d0a9cea8a::t_62d7a371b95103 42-43,48-49
+  s_81d31d0a9cea8a::t_e6994f17df8b03 50
+  s_81d31d0a9cea8a::t_9f2590e34842d9 30-41,47
+  s_81d31d0a9cea8a::t_78de41177fa26d 53
+maptiler/tsconfig.json
+  s_81d31d0a9cea8a::t_78de41177fa26d 17
+leaflet/tsconfig.json
+  s_81d31d0a9cea8a::t_78de41177fa26d 17
+maplibre/package.json
+  s_81d31d0a9cea8a::t_9f2590e34842d9 30-41,48
+  s_81d31d0a9cea8a::t_78de41177fa26d 54
+  s_81d31d0a9cea8a::t_c459017fb6a2bd 55
+  s_81d31d0a9cea8a::t_e6994f17df8b03 51
+  s_81d31d0a9cea8a::t_62d7a371b95103 42-44,49-50
+maptiler/package.json
+  s_81d31d0a9cea8a::t_78de41177fa26d 54
+  s_81d31d0a9cea8a::t_9f2590e34842d9 30-41,48
+  s_81d31d0a9cea8a::t_62d7a371b95103 42-44,49-50
+  s_81d31d0a9cea8a::t_e6994f17df8b03 51
+  s_81d31d0a9cea8a::t_c459017fb6a2bd 55
+mapbox/package.json
+  s_81d31d0a9cea8a::t_9f2590e34842d9 30-41,48
+  s_81d31d0a9cea8a::t_78de41177fa26d 54
+  s_81d31d0a9cea8a::t_c459017fb6a2bd 55
+  s_81d31d0a9cea8a::t_e6994f17df8b03 51
+  s_81d31d0a9cea8a::t_62d7a371b95103 42-44,49-50
+mapbox/tsconfig.json
+  s_81d31d0a9cea8a::t_78de41177fa26d 17
+README.md
+  s_81d31d0a9cea8a::t_25a736172dbfe5 8,98
+  s_81d31d0a9cea8a::t_0f71954f48b670 10
+leaflet/package.json
+  s_81d31d0a9cea8a::t_9f2590e34842d9 33-44,52
+  s_81d31d0a9cea8a::t_62d7a371b95103 46-48,54-55
+  s_81d31d0a9cea8a::t_e6994f17df8b03 56
+  s_81d31d0a9cea8a::t_c459017fb6a2bd 60
+  s_81d31d0a9cea8a::t_78de41177fa26d 59
+openlayers/package.json
+  s_81d31d0a9cea8a::t_9f2590e34842d9 32-43,50
+  s_81d31d0a9cea8a::t_78de41177fa26d 56
+  s_81d31d0a9cea8a::t_62d7a371b95103 44-46,51-52
+  s_81d31d0a9cea8a::t_c459017fb6a2bd 57
+  s_81d31d0a9cea8a::t_e6994f17df8b03 53
+openlayers/tsconfig.json
+  s_81d31d0a9cea8a::t_78de41177fa26d 17
+maplibre/README.md
+  s_81d31d0a9cea8a::t_25a736172dbfe5 14-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "20dac2dbd65597eeff24e7e42ef7a016d8870142",
+  "prompts": {},
+  "humans": {
+    "h_0907ec034f4a17": {
+      "author": "kubow <kube.kubow@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_81d31d0a9cea8a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0e362-c94a-7813-80f6-69d7807012e2",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "kubow <kube.kubow@gmail.com>"
+    }
+  }
+}

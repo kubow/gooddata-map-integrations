@@ -133,3 +133,7 @@ dist
 # temporary archives cutoff
 *.zip
 .directory
+
+# markdowns
+.obsidian
+

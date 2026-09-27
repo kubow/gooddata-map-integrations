@@ -11,12 +11,12 @@ Open-source mapping library integrated with GoodData - no API key required!
 
 ```json
 {
-  "@gooddata/sdk-ui": "^11.14.0",
-  "@gooddata/sdk-backend-tiger": "^11.14.0",
-  "@gooddata/sdk-model": "^11.14.0",
-  "maplibre-gl": "^4.7.1",
-  "react": "^18.3.1",
-  "typescript": "^5.3.3"
+  "@gooddata/sdk-ui": "^11.59.0",
+  "@gooddata/sdk-backend-tiger": "^11.59.0",
+  "@gooddata/sdk-model": "^11.59.0",
+  "maplibre-gl": "^6.11.2",
+  "react": "^19.3.0",
+  "typescript": "^7.0.2"
 }
 ```
 

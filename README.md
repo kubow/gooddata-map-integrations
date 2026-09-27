@@ -5,9 +5,9 @@ Examples of integrating GoodData analytics with popular mapping libraries using 
 ## Technology Stack
 
 - Node.js 18+ (managed via `nvm use`)
-- **React** 18.3
+- **React** 19.3
 - **TypeScript** 5
-- **Vite** 5 (dev server & bundler)
+- **Vite** 6 (dev server & bundler)
 - **GoodData Cloud** workspace with location attributes (latitude/longitude display forms)
 - **GoodData SDK** for data extraction
 - Various mapping libraries (see Available integrations)
@@ -95,7 +95,7 @@ gooddata-map-integrations/
 ├── gooddata/                 # GoodData native component
 ├── leaflet/                  # Leaflet integration
 ├── mapbox/                   # MapBox integration
-├── mapcn/                    # MapLibre GL JS integration
+├── maplibre/                 # MapLibre GL JS integration
 ├── maptiler/                 # MapTiler integration
 └── openlayers/               # OpenLayers integration
 ```

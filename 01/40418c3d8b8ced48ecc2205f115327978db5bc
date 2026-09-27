@@ -1,0 +1,49 @@
+openlayers/src/example/fieldSelection.ts
+  s_87317459e9053c::t_d87b876d961766 1-31
+openlayers/README.md
+  s_87317459e9053c::t_b9ebc582a819cf 16-21,27-37
+openlayers/src/example/countryBoundaries.ts
+  s_87317459e9053c::t_d87b876d961766 1-59
+openlayers/src/typings.d.ts
+  s_87317459e9053c::t_8374a9e7c268b0 3-4
+openlayers/src/example/useGeoCatalog.ts
+  s_87317459e9053c::t_d87b876d961766 1-151
+openlayers/src/example/useAreaValues.ts
+  s_87317459e9053c::t_d87b876d961766 1-2,4,6-16,20-21,23-45,47-50,52-74
+openlayers/package.json
+  s_87317459e9053c::t_be876fb1e19a5d 29-32,47,51-53,57,60
+openlayers/src/example/usePushpinPoints.ts
+  s_87317459e9053c::t_d87b876d961766 1-2,7,10-14,16,21,24-27,31-32,34-101
+openlayers/tsconfig.json
+  s_87317459e9053c::t_897d26beee01d1 9-13
+openlayers/src/example/OpenLayersExplorer.tsx
+  s_87317459e9053c::t_8e2f9db6312abc 1-4,11-13,19-41,47-53,57-66,70-89,94-128,133-197,203-207,214-215,223-227,231-236,240,244-252,259-260,266-295,300-313,320-322,325-328,331-334,337-343,360-374,386-392,399-410
+  s_87317459e9053c::t_401613d2a67dc6 5-10,14-18,42-46,54-56,67-69,90-93,129-132,198-202,208-213,216-222,228-230,237-239,241-243,253-258,261-265,296-299,314-319,323-324,329-330,335-336,344-359,375-385,393-398
+openlayers/src/example/Example.tsx
+  s_87317459e9053c::t_401613d2a67dc6 23-26
+  s_87317459e9053c::t_5d65da8ddda287 1-3,7,9-13,27,30,33
+openlayers/src/example/useOpenLayersLayers.ts
+  s_87317459e9053c::t_401613d2a67dc6 25-27,95-103,105-109,164-166,178-180,183-190,203-206,211-213,226-230,236-238,254-258,275-277,336-338,351-354,359-361,370-374
+  s_87317459e9053c::t_cd093430208903 1-24,28-94,104,110-163,167-177,181-182,191-202,207-210,214-225,231-235,239-253,259-274,278-335,339-350,355-358,362-369,375-387
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0140418c3d8b8ced48ecc2205f115327978db5bc",
+  "prompts": {},
+  "humans": {
+    "h_0907ec034f4a17": {
+      "author": "kubow <kube.kubow@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_87317459e9053c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a25ccf81-5e9e-4ee0-bb03-a94766a8d192",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "kubow <kube.kubow@gmail.com>"
+    }
+  }
+}
